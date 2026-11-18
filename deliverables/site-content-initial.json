@@ -1,0 +1,1335 @@
+{
+  "pages": {
+    "home": {
+      "order": [
+        "navigation",
+        "hero",
+        "series",
+        "locks",
+        "sizes",
+        "manufacturing",
+        "customization",
+        "workflow",
+        "applications",
+        "company",
+        "faq",
+        "seo",
+        "commercial"
+      ],
+      "modules": {
+        "navigation": {
+          "hidden": false,
+          "values": {
+            "items": [
+              {
+                "id": "nav-0",
+                "label": {
+                  "en": "Home"
+                },
+                "href": "/"
+              },
+              {
+                "id": "nav-1",
+                "label": {
+                  "en": "Products"
+                },
+                "href": "/products"
+              },
+              {
+                "id": "nav-2",
+                "label": {
+                  "en": "Manufacturing"
+                },
+                "href": "/manufacturing"
+              },
+              {
+                "id": "nav-3",
+                "label": {
+                  "en": "Cases"
+                },
+                "href": "/cases"
+              },
+              {
+                "id": "nav-4",
+                "label": {
+                  "en": "About"
+                },
+                "href": "/about"
+              },
+              {
+                "id": "nav-5",
+                "label": {
+                  "en": "News"
+                },
+                "href": "/news"
+              },
+              {
+                "id": "nav-6",
+                "label": {
+                  "en": "Contact"
+                },
+                "href": "/contact"
+              }
+            ]
+          }
+        },
+        "hero": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "YONGSHUN · Safe manufacturer"
+            },
+            "slides": [
+              {
+                "id": "banner-1",
+                "headline": {
+                  "en": "Choose the safe that fits your space"
+                },
+                "body": {
+                  "en": "Browse five series by finish, size and access option, then compare models before you inquire."
+                },
+                "cta_label": {
+                  "en": "Browse series"
+                },
+                "cta_href": "/products",
+                "desktop_image": {
+                  "assetId": "51d4c514-2693-40ee-ac4c-f21dc34df7fd",
+                  "alt": {
+                    "en": "Safe cabinet collection"
+                  }
+                },
+                "mobile_image": {
+                  "assetId": "51d4c514-2693-40ee-ac4c-f21dc34df7fd",
+                  "alt": {
+                    "en": "Safe cabinet collection"
+                  }
+                }
+              },
+              {
+                "id": "banner-2",
+                "headline": {
+                  "en": "Access options for everyday security"
+                },
+                "body": {
+                  "en": "Mechanical, electronic and fingerprint access across the range, so each space gets the right way in."
+                },
+                "cta_label": {
+                  "en": "See access options"
+                },
+                "cta_href": "/products",
+                "desktop_image": {
+                  "assetId": "58d0515d-1d64-4f0a-8b39-159440c91621",
+                  "alt": {
+                    "en": "Safe cabinet collection"
+                  }
+                },
+                "mobile_image": {
+                  "assetId": "58d0515d-1d64-4f0a-8b39-159440c91621",
+                  "alt": {
+                    "en": "Safe cabinet collection"
+                  }
+                }
+              },
+              {
+                "id": "banner-3",
+                "headline": {
+                  "en": "Plan your next safe order"
+                },
+                "body": {
+                  "en": "Talk through customization, samples and quantity with the factory team in Wuyi."
+                },
+                "cta_label": {
+                  "en": "Start the conversation"
+                },
+                "cta_href": "/contact",
+                "desktop_image": {
+                  "assetId": "e29fac72-1f92-49bd-beeb-35a192418c1e",
+                  "alt": {
+                    "en": "Safe cabinet collection"
+                  }
+                },
+                "mobile_image": {
+                  "assetId": "e29fac72-1f92-49bd-beeb-35a192418c1e",
+                  "alt": {
+                    "en": "Safe cabinet collection"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "series": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Series"
+            },
+            "title": {
+              "en": "Which series suits my purchase?"
+            },
+            "body": {
+              "en": "Five series, each with its own finish and format. Pick an entrance to see every model in that series."
+            }
+          }
+        },
+        "locks": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Access"
+            },
+            "title": {
+              "en": "Which access option do I need?"
+            },
+            "body": {
+              "en": "Explore access types, then confirm the configuration for your chosen model."
+            },
+            "options": [
+              {
+                "id": "mechanical",
+                "title": {
+                  "en": "Mechanical"
+                },
+                "body": {
+                  "en": "Explore mechanical lock options for safe cabinet access."
+                },
+                "points": [
+                  {
+                    "id": "point-0",
+                    "text": {
+                      "en": "Mechanical access options"
+                    }
+                  },
+                  {
+                    "id": "point-1",
+                    "text": {
+                      "en": "A choice of cabinet sizes"
+                    }
+                  },
+                  {
+                    "id": "point-2",
+                    "text": {
+                      "en": "Confirm the lock configuration with your order"
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "electronic",
+                "title": {
+                  "en": "Electronic"
+                },
+                "body": {
+                  "en": "Keypad entry for quick, key-free access."
+                },
+                "points": [
+                  {
+                    "id": "point-0",
+                    "text": {
+                      "en": "Electronic code entry"
+                    }
+                  },
+                  {
+                    "id": "point-1",
+                    "text": {
+                      "en": "Compare cabinet sizes and model parameters"
+                    }
+                  },
+                  {
+                    "id": "point-2",
+                    "text": {
+                      "en": "Confirm the access configuration with your order"
+                    }
+                  }
+                ],
+                "image": {
+                  "assetId": "f4e9b3d2-7cd0-47d6-b634-d3da47c2e718",
+                  "alt": {
+                    "en": "Grey safe with a digital keypad and fingerprint panel on the door"
+                  }
+                }
+              },
+              {
+                "id": "fingerprint",
+                "title": {
+                  "en": "Fingerprint"
+                },
+                "body": {
+                  "en": "Touch-to-open access for the people you register."
+                },
+                "points": [
+                  {
+                    "id": "point-0",
+                    "text": {
+                      "en": "Fingerprint reader on the door"
+                    }
+                  },
+                  {
+                    "id": "point-1",
+                    "text": {
+                      "en": "Quick access without carrying a key"
+                    }
+                  },
+                  {
+                    "id": "point-2",
+                    "text": {
+                      "en": "Bronze fingerprint versions available"
+                    }
+                  }
+                ],
+                "image": {
+                  "assetId": "4f991384-573c-40cd-a30c-0b05f5386f12",
+                  "alt": {
+                    "en": "Tall grey safe with a round fingerprint reader on the door"
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "sizes": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Sizes"
+            },
+            "title": {
+              "en": "Which cabinet size fits?"
+            },
+            "body": {
+              "en": "Compare models by series, access option and external dimensions. Select a row to see its dimension diagram."
+            }
+          }
+        },
+        "manufacturing": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Manufacturing"
+            },
+            "title": {
+              "en": "Can the supplier manufacture my order?"
+            },
+            "body": {
+              "en": "Design, R&D, production and sales sit under one roof in Wuyi, from cutting through to assembly."
+            }
+          }
+        },
+        "customization": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Customization"
+            },
+            "title": {
+              "en": "What can be customized?"
+            },
+            "body": {
+              "en": "Four things can be tailored to your project, from a minimum of 20 units."
+            },
+            "items": [
+              {
+                "id": "size",
+                "title": {
+                  "en": "Size"
+                },
+                "body": {
+                  "en": "Adjust external or internal dimensions to suit the space or the items being stored."
+                }
+              },
+              {
+                "id": "material",
+                "title": {
+                  "en": "Material"
+                },
+                "body": {
+                  "en": "Discuss steel and finishing materials for the cabinet body and door."
+                }
+              },
+              {
+                "id": "colour",
+                "title": {
+                  "en": "Colour"
+                },
+                "body": {
+                  "en": "Choose colour and finish, including wood-grain and painted options."
+                }
+              },
+              {
+                "id": "process",
+                "title": {
+                  "en": "Process"
+                },
+                "body": {
+                  "en": "Specify surface treatment and construction process requirements."
+                }
+              },
+              {
+                "id": "moq",
+                "title": {
+                  "en": "Minimum order"
+                },
+                "body": {
+                  "en": "The minimum order quantity for custom production is 20 units."
+                }
+              }
+            ]
+          }
+        },
+        "workflow": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Order process"
+            },
+            "title": {
+              "en": "How does an order proceed?"
+            },
+            "body": {
+              "en": "Five connected steps take an order from first requirement to packed cabinets."
+            },
+            "items": [
+              {
+                "id": "requirement",
+                "title": {
+                  "en": "Requirement"
+                },
+                "body": {
+                  "en": "Share the model, size, material, colour, process and quantity you need."
+                }
+              },
+              {
+                "id": "sample",
+                "title": {
+                  "en": "Sample confirmation"
+                },
+                "body": {
+                  "en": "Approve a charged sample before production begins."
+                }
+              },
+              {
+                "id": "production",
+                "title": {
+                  "en": "Production progress"
+                },
+                "body": {
+                  "en": "Production runs on the customization lines, with progress updates to you."
+                }
+              },
+              {
+                "id": "inspection",
+                "title": {
+                  "en": "Inspection"
+                },
+                "body": {
+                  "en": "Inspection and report support is available before the order leaves."
+                }
+              },
+              {
+                "id": "packaging",
+                "title": {
+                  "en": "Packaging"
+                },
+                "body": {
+                  "en": "Packaging is included, ready for the shipping arrangement you choose."
+                }
+              }
+            ]
+          }
+        },
+        "applications": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Applications"
+            },
+            "title": {
+              "en": "Where can these safes be used?"
+            },
+            "body": {
+              "en": "From desks and studies to shop counters, a safe is chosen for the space it sits in."
+            }
+          }
+        },
+        "company": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Company"
+            },
+            "title": {
+              "en": "Who is the manufacturer?"
+            },
+            "body": {
+              "en": "Zhejiang Wuyi Yongshun Safe Cabinet Co., Ltd. integrates design, R&D, production and sales of mechanical, electronic and fingerprint safes and storage boxes under the Yongshun and Manadun brands."
+            },
+            "registration": {
+              "en": "Business registration dates from 23 August 2012. The company works from the Jinyanshan Industrial Area in Quanxi Town, Wuyi County, Zhejiang."
+            },
+            "factory_image": {
+              "assetId": "86e13570-91ad-4a1a-bfb0-309fc06925a7",
+              "alt": {
+                "en": "Company entrance in Wuyi"
+              }
+            },
+            "exhibition_image": {
+              "assetId": "2ffeeca6-6f02-4418-9397-d0ceb300a375",
+              "alt": {
+                "en": "Company exhibition booth"
+              }
+            }
+          }
+        },
+        "faq": {
+          "hidden": false,
+          "values": {
+            "eyebrow": {
+              "en": "Before you order"
+            },
+            "title": {
+              "en": "What should I confirm before ordering?"
+            },
+            "body": {
+              "en": "Quantity, samples, lead time, inspection and packaging, answered in one place."
+            },
+            "groups": [
+              {
+                "id": "product",
+                "title": {
+                  "en": "Models and customization"
+                },
+                "items": [
+                  {
+                    "id": "product-0",
+                    "question": {
+                      "en": "What sizes and models are available?"
+                    },
+                    "answer": {
+                      "en": "The range includes compact, mid-size and tall cabinets. Compare each series and its model dimensions in the product catalogue."
+                    }
+                  },
+                  {
+                    "id": "product-1",
+                    "question": {
+                      "en": "Can size, material, colour or process be customized?"
+                    },
+                    "answer": {
+                      "en": "Yes. Send your required dimensions, material, colour and process so the factory can confirm the order specification."
+                    }
+                  },
+                  {
+                    "id": "product-2",
+                    "question": {
+                      "en": "Can you provide samples?"
+                    },
+                    "answer": {
+                      "en": "Yes. Samples can be arranged before a production order."
+                    }
+                  },
+                  {
+                    "id": "product-3",
+                    "question": {
+                      "en": "Are technical data sheets and test reports available?"
+                    },
+                    "answer": {
+                      "en": "Yes. Request the technical data sheet or available test report for the exact model you are considering."
+                    }
+                  },
+                  {
+                    "id": "product-4",
+                    "question": {
+                      "en": "Which applications does the range serve?"
+                    },
+                    "answer": {
+                      "en": "Applications include offices, homes, security storage and banks. Select the cabinet construction and access option for the intended use."
+                    }
+                  },
+                  {
+                    "id": "product-5",
+                    "question": {
+                      "en": "Can additional protective features be discussed?"
+                    },
+                    "answer": {
+                      "en": "Fire-resistance and anti-theft requirements can be discussed for custom orders. Confirm the required construction and documentation for the specific model."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "pricing",
+                "title": {
+                  "en": "Quantity and quotation"
+                },
+                "items": [
+                  {
+                    "id": "pricing-0",
+                    "question": {
+                      "en": "What is the minimum order quantity?"
+                    },
+                    "answer": {
+                      "en": "The minimum order quantity is 20 units."
+                    }
+                  },
+                  {
+                    "id": "pricing-1",
+                    "question": {
+                      "en": "Is pricing tiered by quantity?"
+                    },
+                    "answer": {
+                      "en": "Yes. Send your chosen models and quantity for a tiered quotation."
+                    }
+                  },
+                  {
+                    "id": "pricing-2",
+                    "question": {
+                      "en": "Does the quotation include packaging, shipping and tax?"
+                    },
+                    "answer": {
+                      "en": "Packaging is included. Shipping and tax are excluded and should be confirmed separately."
+                    }
+                  },
+                  {
+                    "id": "pricing-3",
+                    "question": {
+                      "en": "Can long-term cooperation and bulk pricing be discussed?"
+                    },
+                    "answer": {
+                      "en": "Yes. Long-term cooperation pricing and bulk discounts can be discussed for your order."
+                    }
+                  },
+                  {
+                    "id": "pricing-4",
+                    "question": {
+                      "en": "Do raw-material or exchange-rate movements affect the quoted price?"
+                    },
+                    "answer": {
+                      "en": "The company states that its quoted price is not adjusted for those movements. Confirm the quotation terms with the sales team before ordering."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "samples",
+                "title": {
+                  "en": "Samples and approval"
+                },
+                "items": [
+                  {
+                    "id": "samples-0",
+                    "question": {
+                      "en": "Can samples be shipped?"
+                    },
+                    "answer": {
+                      "en": "Yes. Sample shipment can be arranged with the sales team."
+                    }
+                  },
+                  {
+                    "id": "samples-1",
+                    "question": {
+                      "en": "Are samples charged and refundable?"
+                    },
+                    "answer": {
+                      "en": "Samples are charged and non-refundable."
+                    }
+                  },
+                  {
+                    "id": "samples-2",
+                    "question": {
+                      "en": "What is the normal sample lead time?"
+                    },
+                    "answer": {
+                      "en": "Normal sample lead time is about 30 days."
+                    }
+                  },
+                  {
+                    "id": "samples-3",
+                    "question": {
+                      "en": "Can a custom sample be approved before production?"
+                    },
+                    "answer": {
+                      "en": "Yes. A custom sample can be prepared for your confirmation before mass production."
+                    }
+                  },
+                  {
+                    "id": "samples-4",
+                    "question": {
+                      "en": "Is the approved sample used for the production order?"
+                    },
+                    "answer": {
+                      "en": "Yes. The approved sample is the reference for the agreed production specification."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "production",
+                "title": {
+                  "en": "Production and scheduling"
+                },
+                "items": [
+                  {
+                    "id": "production-0",
+                    "question": {
+                      "en": "What is the normal production lead time?"
+                    },
+                    "answer": {
+                      "en": "Normal production lead time is about 30 days after order confirmation."
+                    }
+                  },
+                  {
+                    "id": "production-1",
+                    "question": {
+                      "en": "How is bulk-order delivery scheduled?"
+                    },
+                    "answer": {
+                      "en": "The factory plans bulk orders to maintain a stable delivery schedule. Confirm the dispatch date for your order."
+                    }
+                  },
+                  {
+                    "id": "production-2",
+                    "question": {
+                      "en": "Does peak season change the planned lead time?"
+                    },
+                    "answer": {
+                      "en": "The company plans peak-season production around the normal lead time. Confirm your required delivery date when ordering."
+                    }
+                  },
+                  {
+                    "id": "production-3",
+                    "question": {
+                      "en": "Is expedited production available?"
+                    },
+                    "answer": {
+                      "en": "Urgent production requests are supported. Contact the team to confirm availability for your model and quantity."
+                    }
+                  },
+                  {
+                    "id": "production-4",
+                    "question": {
+                      "en": "Can production progress updates be provided?"
+                    },
+                    "answer": {
+                      "en": "Yes. Progress updates can be provided while your order is in production."
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "inspection",
+                "title": {
+                  "en": "Inspection and communication"
+                },
+                "items": [
+                  {
+                    "id": "inspection-0",
+                    "question": {
+                      "en": "Is there a quality-control process?"
+                    },
+                    "answer": {
+                      "en": "Yes. The company has a quality-control process for production and outgoing inspection."
+                    }
+                  },
+                  {
+                    "id": "inspection-1",
+                    "question": {
+                      "en": "Is third-party inspection supported?"
+                    },
+                    "answer": {
+                      "en": "Yes. Third-party inspection can be arranged for your order."
+                    }
+                  },
+                  {
+                    "id": "inspection-2",
+                    "question": {
+                      "en": "Are inspection reports available?"
+                    },
+                    "answer": {
+                      "en": "Yes. Outgoing inspection and inspection reports are available."
+                    }
+                  },
+                  {
+                    "id": "inspection-3",
+                    "question": {
+                      "en": "How should a product quality issue be raised?"
+                    },
+                    "answer": {
+                      "en": "Contact the team with the model, order details and a description of the issue so it can be discussed."
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "YONGSHUN Safe Manufacturer | Mechanical, Electronic and Fingerprint Safes"
+            },
+            "description": {
+              "en": "Explore safe cabinet series, dimensions, customization and production capabilities from Yongshun in Wuyi, Zhejiang."
+            }
+          }
+        },
+        "commercial": {
+          "hidden": false,
+          "values": {
+            "moq": 20
+          }
+        }
+      }
+    },
+    "products": {
+      "order": [
+        "intro",
+        "seo"
+      ],
+      "modules": {
+        "intro": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Safes by series, access and size"
+            },
+            "body": {
+              "en": "Five series of mechanical, electronic and fingerprint safes. Filter by series, access option or size."
+            }
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Safes by series, access and size"
+            },
+            "description": {
+              "en": "Five series of mechanical, electronic and fingerprint safes. Filter by series, access option or size."
+            }
+          }
+        }
+      }
+    },
+    "manufacturing": {
+      "order": [
+        "intro",
+        "seo",
+        "process",
+        "capacity",
+        "gallery"
+      ],
+      "modules": {
+        "intro": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "From steel sheet to finished safe"
+            },
+            "body": {
+              "en": "Six workshops and three customization production lines on a site of about 10,000 square metres."
+            }
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "From steel sheet to finished safe"
+            },
+            "description": {
+              "en": "Six workshops and three customization production lines on a site of about 10,000 square metres."
+            }
+          }
+        },
+        "process": {
+          "hidden": false,
+          "values": {
+            "items": [
+              {
+                "id": "cutting",
+                "title": {
+                  "en": "Cutting"
+                },
+                "body": {
+                  "en": "Steel sheet is cut to the sizes each cabinet needs."
+                }
+              },
+              {
+                "id": "precision",
+                "title": {
+                  "en": "Precision"
+                },
+                "body": {
+                  "en": "Parts are formed and checked so doors and frames align."
+                }
+              },
+              {
+                "id": "welding",
+                "title": {
+                  "en": "Welding"
+                },
+                "body": {
+                  "en": "Cabinet bodies and doors are welded into solid structures."
+                }
+              },
+              {
+                "id": "grinding",
+                "title": {
+                  "en": "Grinding"
+                },
+                "body": {
+                  "en": "Weld seams and edges are ground smooth before finishing."
+                }
+              },
+              {
+                "id": "coating",
+                "title": {
+                  "en": "Coating"
+                },
+                "body": {
+                  "en": "Colour and surface finishes are applied in the coating shop."
+                }
+              },
+              {
+                "id": "assembly",
+                "title": {
+                  "en": "Assembly"
+                },
+                "body": {
+                  "en": "Locks, hardware and interiors are fitted and the cabinet is packed."
+                }
+              }
+            ]
+          }
+        },
+        "capacity": {
+          "hidden": false,
+          "values": {
+            "area": 10000,
+            "lines": 3,
+            "monthly": 3000,
+            "lead_days": 30
+          }
+        },
+        "gallery": {
+          "hidden": false,
+          "values": {
+            "items": [
+              {
+                "id": "workshop-0",
+                "title": {
+                  "en": "Inside the manufacturing building"
+                },
+                "caption": {
+                  "en": "Metal sheets and processing equipment under the workshop roof"
+                },
+                "image": {
+                  "assetId": "d5ad8d43-33e9-4de2-b3a3-09a1427af3fc",
+                  "alt": {
+                    "en": "Metal sheets and processing equipment under the workshop roof"
+                  }
+                }
+              },
+              {
+                "id": "workshop-1",
+                "title": {
+                  "en": "Sheet processing equipment"
+                },
+                "caption": {
+                  "en": "Sheet-processing machine and its work table in the production workshop"
+                },
+                "image": {
+                  "assetId": "76802a8d-0878-4422-85e2-c736e2162794",
+                  "alt": {
+                    "en": "Sheet-processing machine and its work table in the production workshop"
+                  }
+                }
+              },
+              {
+                "id": "workshop-2",
+                "title": {
+                  "en": "Cabinet staging"
+                },
+                "caption": {
+                  "en": "Assembled safe cabinets and packing components inside the workshop"
+                },
+                "image": {
+                  "assetId": "00db920a-cae9-4ee9-a416-ee5866bf32ea",
+                  "alt": {
+                    "en": "Assembled safe cabinets and packing components inside the workshop"
+                  }
+                }
+              },
+              {
+                "id": "workshop-3",
+                "title": {
+                  "en": "Materials and equipment"
+                },
+                "caption": {
+                  "en": "Sheet material and production equipment inside the manufacturing building"
+                },
+                "image": {
+                  "assetId": "85306b2d-0c12-4187-985a-b245dfcc8551",
+                  "alt": {
+                    "en": "Sheet material and production equipment inside the manufacturing building"
+                  }
+                }
+              },
+              {
+                "id": "workshop-4",
+                "title": {
+                  "en": "Production floor"
+                },
+                "caption": {
+                  "en": "Workstations, safe cabinets and equipment across the manufacturing floor"
+                },
+                "image": {
+                  "assetId": "ee440d18-097f-4945-95f3-682e1a544f67",
+                  "alt": {
+                    "en": "Workstations, safe cabinets and equipment across the manufacturing floor"
+                  }
+                }
+              },
+              {
+                "id": "workshop-5",
+                "title": {
+                  "en": "Order preparation"
+                },
+                "caption": {
+                  "en": "Packed goods and work areas inside the manufacturing building"
+                },
+                "image": {
+                  "assetId": "a66cd87a-e68b-43f7-82b8-ae64a7dbf78a",
+                  "alt": {
+                    "en": "Packed goods and work areas inside the manufacturing building"
+                  }
+                }
+              },
+              {
+                "id": "workshop-6",
+                "title": {
+                  "en": "Packed cabinet storage"
+                },
+                "caption": {
+                  "en": "Packed goods arranged along the manufacturing building aisle"
+                },
+                "image": {
+                  "assetId": "a0ba90c3-2abf-485e-a0f7-e1fde68a4af2",
+                  "alt": {
+                    "en": "Packed goods arranged along the manufacturing building aisle"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "cases": {
+      "order": [
+        "intro",
+        "seo",
+        "applications"
+      ],
+      "modules": {
+        "intro": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Safes in everyday spaces"
+            },
+            "body": {
+              "en": "Application scenes that show where each kind of safe fits."
+            }
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Safes in everyday spaces"
+            },
+            "description": {
+              "en": "Application scenes that show where each kind of safe fits."
+            }
+          }
+        },
+        "applications": {
+          "hidden": false,
+          "values": {
+            "items": [
+              {
+                "id": "office",
+                "title": {
+                  "en": "Office"
+                },
+                "caption": {
+                  "en": "Desk-side and cabinet-height safes for documents, cash boxes and equipment keys."
+                },
+                "detail": {
+                  "en": "Compact and mid-size cabinets fit beside a desk or inside a storage room."
+                },
+                "image": {
+                  "assetId": "7ecc3bd8-b59f-4d3b-bba4-bb995fc3e762",
+                  "alt": {
+                    "en": "Office safe cabinet application"
+                  }
+                }
+              },
+              {
+                "id": "home",
+                "title": {
+                  "en": "Home"
+                },
+                "caption": {
+                  "en": "Wood-finish and painted safes for a study, bedroom or living space."
+                },
+                "detail": {
+                  "en": "Wood-finish and cream colourways are chosen to sit comfortably in a room."
+                },
+                "image": {
+                  "assetId": "91f1d596-d965-403f-a8a7-332c27e630e7",
+                  "alt": {
+                    "en": "Home safe cabinet application"
+                  }
+                }
+              },
+              {
+                "id": "commercial",
+                "title": {
+                  "en": "Shops and premises"
+                },
+                "caption": {
+                  "en": "Tall and double-door cabinets for business storage needs."
+                },
+                "detail": {
+                  "en": "Larger formats are available for premises that need more storage volume."
+                },
+                "image": {
+                  "assetId": "ec8ad6fb-221e-40ee-ac9b-e76e33ea3747",
+                  "alt": {
+                    "en": "Shops and premises safe cabinet application"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "about": {
+      "order": [
+        "intro",
+        "seo",
+        "profile",
+        "gallery"
+      ],
+      "modules": {
+        "intro": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "A safe manufacturer in Wuyi, Zhejiang"
+            },
+            "body": {
+              "en": "Zhejiang Wuyi Yongshun Safe Cabinet Co., Ltd. integrates design, R&D, production and sales of mechanical, electronic and fingerprint safes and storage boxes."
+            }
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "A safe manufacturer in Wuyi, Zhejiang"
+            },
+            "description": {
+              "en": "Zhejiang Wuyi Yongshun Safe Cabinet Co., Ltd. integrates design, R&D, production and sales of mechanical, electronic and fingerprint safes and storage boxes."
+            }
+          }
+        },
+        "profile": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Company profile"
+            },
+            "body": {
+              "en": "The company manufactures mechanical, electronic and fingerprint safes and storage boxes under the Yongshun and Manadun brands. Design, R&D, production and sales are integrated at the Wuyi site."
+            },
+            "registration": {
+              "en": "Business registration dates from 23 August 2012."
+            },
+            "image": {
+              "assetId": "86e13570-91ad-4a1a-bfb0-309fc06925a7",
+              "alt": {
+                "en": "Company entrance in Jinyanshan Industrial Area"
+              }
+            }
+          }
+        },
+        "gallery": {
+          "hidden": false,
+          "values": {
+            "items": [
+              {
+                "id": "warehouse",
+                "title": {
+                  "en": "Warehouse"
+                },
+                "image": {
+                  "assetId": "a0ba90c3-2abf-485e-a0f7-e1fde68a4af2",
+                  "alt": {
+                    "en": "Packed cabinets in the manufacturing building"
+                  }
+                }
+              },
+              {
+                "id": "exhibition",
+                "title": {
+                  "en": "Exhibition"
+                },
+                "image": {
+                  "assetId": "2ffeeca6-6f02-4418-9397-d0ceb300a375",
+                  "alt": {
+                    "en": "Company exhibition booth"
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "news": {
+      "order": [
+        "intro",
+        "seo",
+        "empty"
+      ],
+      "modules": {
+        "intro": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Company news"
+            },
+            "body": {
+              "en": ""
+            }
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Company news"
+            },
+            "description": {
+              "en": "Company news from YONGSHUN safe cabinet manufacturer in Wuyi, Zhejiang."
+            }
+          }
+        },
+        "empty": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "No news published yet"
+            },
+            "body": {
+              "en": "Articles will appear here once they are published. For product or order questions, contact us directly."
+            }
+          }
+        }
+      }
+    },
+    "contact": {
+      "order": [
+        "intro",
+        "seo",
+        "introduction"
+      ],
+      "modules": {
+        "intro": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Tell us what you need"
+            },
+            "body": {
+              "en": "Share the model, size, colour and quantity you have in mind. Minimum order is 20 units."
+            }
+          }
+        },
+        "seo": {
+          "hidden": false,
+          "values": {
+            "title": {
+              "en": "Tell us what you need"
+            },
+            "description": {
+              "en": "Share the model, size, colour and quantity you have in mind. Minimum order is 20 units."
+            }
+          }
+        },
+        "introduction": {
+          "hidden": false,
+          "values": {
+            "profile": {
+              "en": "A manufacturer of mechanical, electronic and fingerprint safes and storage boxes, selling under the Yongshun and Manadun brands."
+            },
+            "form_title": {
+              "en": "Send an inquiry"
+            },
+            "form_help": {
+              "en": "Fields marked * are required."
+            },
+            "image": {
+              "assetId": "86e13570-91ad-4a1a-bfb0-309fc06925a7",
+              "alt": {
+                "en": "Company entrance in Wuyi"
+              }
+            },
+            "services": [
+              {
+                "id": "service-0",
+                "label": {
+                  "en": "Mechanical safes"
+                }
+              },
+              {
+                "id": "service-1",
+                "label": {
+                  "en": "Electronic safes"
+                }
+              },
+              {
+                "id": "service-2",
+                "label": {
+                  "en": "Fingerprint safes"
+                }
+              },
+              {
+                "id": "service-3",
+                "label": {
+                  "en": "Storage boxes"
+                }
+              },
+              {
+                "id": "service-4",
+                "label": {
+                  "en": "Design and R&D"
+                }
+              },
+              {
+                "id": "service-5",
+                "label": {
+                  "en": "Custom production"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

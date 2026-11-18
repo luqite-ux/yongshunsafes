@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "templateFamily": "custom",
+  "navigation": [
+    {
+      "label": "Home",
+      "route": "/",
+      "level": 1,
+      "source": "Customer materials and buyer-content plan",
+      "referencePeer": "sentrysafe.com"
+    },
+    {
+      "label": "Products",
+      "route": "/products",
+      "level": 1,
+      "source": "Customer materials and buyer-content plan",
+      "referencePeer": "sentrysafe.com"
+    },
+    {
+      "label": "Manufacturing",
+      "route": "/manufacturing",
+      "level": 1,
+      "source": "Customer materials and buyer-content plan",
+      "referencePeer": "sentrysafe.com"
+    },
+    {
+      "label": "Cases",
+      "route": "/cases",
+      "level": 1,
+      "source": "Customer materials and buyer-content plan",
+      "referencePeer": "sentrysafe.com"
+    },
+    {
+      "label": "About",
+      "route": "/about",
+      "level": 1,
+      "source": "Customer materials and buyer-content plan",
+      "referencePeer": "sentrysafe.com"
+    },
+    {
+      "label": "News",
+      "route": "/news",
+      "level": 1,
+      "source": "Customer materials and buyer-content plan",
+      "referencePeer": "sentrysafe.com"
+    },
+    {
+      "label": "Contact",
+      "route": "/contact",
+      "level": 1,
+      "source": "Customer materials and buyer-content plan",
+      "referencePeer": "sentrysafe.com"
+    }
+  ],
+  "productTaxonomy": [
+    {
+      "customerProduct": "Achiever",
+      "category": "achiever",
+      "route": "/products?category=achiever",
+      "source": "Customer original site classification supplemented by PDF Yongning"
+    },
+    {
+      "customerProduct": "Lingzhi",
+      "category": "lingzhi",
+      "route": "/products?category=lingzhi",
+      "source": "Customer original site classification supplemented by PDF Yongning"
+    },
+    {
+      "customerProduct": "Upgraded",
+      "category": "upgraded",
+      "route": "/products?category=upgraded",
+      "source": "Customer original site classification supplemented by PDF Yongning"
+    },
+    {
+      "customerProduct": "Zhishang",
+      "category": "zhishang",
+      "route": "/products?category=zhishang",
+      "source": "Customer original site classification supplemented by PDF Yongning"
+    },
+    {
+      "customerProduct": "Yongning",
+      "category": "yongning",
+      "route": "/products?category=yongning",
+      "source": "Customer original site classification supplemented by PDF Yongning"
+    }
+  ],
+  "homepageSections": [
+    {
+      "sectionId": "hero",
+      "type": "product-hero",
+      "purpose": "What safes can I source?",
+      "informationGain": "Real safe cabinets with distinct three-banner messages",
+      "factSource": "All three designated Banner images",
+      "contentType": "Real customer images and editable text",
+      "desktopStrategy": "Complete real product advertising scene and DOM text",
+      "mobile390Strategy": "Recompose real subject and text without cropping cabinets",
+      "componentDecision": "Evaluate actual native component search; use only suitable packages",
+      "referencePeers": [
+        "brownsafe.com"
+      ]
+    },
+    {
+      "sectionId": "series",
+      "type": "product-selection",
+      "purpose": "Which series suits my purchase?",
+      "informationGain": "Five real category entrances with representative complete products",
+      "factSource": "Original catalogue, Excel and PDF categories",
+      "contentType": "Real customer images and editable text",
+      "desktopStrategy": "Product-dominant category navigation",
+      "mobile390Strategy": "Touch-friendly nonempty category links",
+      "componentDecision": "Evaluate actual native component search; use only suitable packages",
+      "referencePeers": [
+        "sentrysafe.com"
+      ]
+    },
+    {
+      "sectionId": "locks",
+      "type": "product-features",
+      "purpose": "Which access option do I need?",
+      "informationGain": "Mechanical, electronic and fingerprint access choices without invented ratings",
+      "factSource": "Excel company brief and product feature images",
+      "contentType": "Real customer images and editable text",
+      "desktopStrategy": "Real detail imagery with labelled controls",
+      "mobile390Strategy": "Stacked readable details and complete product",
+      "componentDecision": "Evaluate actual native component search; use only suitable packages",
+      "referencePeers": [
+        "brownsafe.com"
+      ]
+    },
+    {
+      "sectionId": "sizes",
+      "type": "model-selection",
+      "purpose": "Which cabinet size fits?",
+      "informationGain": "Model and external dimension comparison from reviewed tables",
+      "factSource": "Reviewed PDF and long-image specification tables",
+      "contentType": "Real customer images and editable text",
+      "desktopStrategy": "Selectable model rows and dimension graphic",
+      "mobile390Strategy": "Horizontally scrollable accessible table",
+      "componentDecision": "Evaluate actual native component search; use only suitable packages",
+      "referencePeers": [
+        "libertysafe.com"
+      ]
+    },
+    {
+      "sectionId": "manufacturing",
+      "type": "capability",
+      "purpose": "Can the supplier manufacture my order?",
+      "informationGain": "Cutting, welding, grinding, coating and assembly plus actual workshop photography",
+      "factSource": "Excel workshops and real equipment photographs",
+      "contentType": "Real customer images and editable text",
+      "desktopStrategy": "Manufacturing story with real image sequence",
+      "mobile390Strategy": "Compact photo sequence and readable process labels",
+      "componentDecision": "Evaluate actual native component search; use only suitable packages",
+      "referencePeers": [
+        "brownsafe.com"
+      ]
+    },
+    {
+      "sectionId": "customization",
+      "type": "customization",
+      "purpose": "What can be customized?",
+      "informationGain": "Size, material, colour and process options with MOQ 20",
+      "factSource": "Excel FAQ",
+      "contentType": "Real customer images and editable text",
+      "desktopStrategy": "Options arranged as meaningful procurement choices",
+      "mobile390Strategy": "Expandable options with clear inquiry target",
+      "componentDecision": "Evaluate actual native component search; use only suitable packages",
+      "referencePeers": [
+        "brownsafe.com"
+      ]
+    },
+    {
+      "sectionId": "workflow",
+      "type": "cooperation-process",
+      "purpose": "How does an order proceed?",
+      "informationGain": "Requirement, sample confirmation, production progress, inspection and packaging steps",
+      "factSource": "Excel FAQ and old-site customization process",
+      "contentType": "Real customer images and editable text",
+      "desktopStrategy": "Connected semantic process nodes",
+      "mobile390Strategy": "Vertical steps preserving content and order",
+      "componentDecision": "Evaluate actual native component search; use only suitable packages",
+      "referencePeers": [
+        "brownsafe.com"
+      ]
+    },
+    {
+      "sectionId": "applications",
+      "type": "application",
+      "purpose": "Where can these safes be used?",
+      "informationGain": "Office, home and other supported security applications without fictional customer projects",
+      "factSource": "Actual scene images and Excel applications",
+      "contentType": "Real customer images and editable text",
+      "desktopStrategy": "Scene-led Cases entrance with neutral captions",
+      "mobile390Strategy": "Swipe or stacked scene tiles with full accessible links",
+      "componentDecision": "Evaluate actual native component search; use only suitable packages",
+      "referencePeers": [
+        "brownsafe.com"
+      ]
+    },
+    {
+      "sectionId": "company",
+      "type": "company-proof",
+      "purpose": "Who is the manufacturer?",
+      "informationGain": "Real factory, warehouse and exhibition presence; licence registration 2012",
+      "factSource": "Excel embedded company images and business licence",
+      "contentType": "Real customer images and editable text",
+      "desktopStrategy": "Image-led company profile linked to About",
+      "mobile390Strategy": "Complete photographs and concise company profile",
+      "componentDecision": "Evaluate actual native component search; use only suitable packages",
+      "referencePeers": [
+        "brownsafe.com"
+      ]
+    },
+    {
+      "sectionId": "faq",
+      "type": "faq",
+      "purpose": "What should I confirm before ordering?",
+      "informationGain": "MOQ, samples, lead time, inspection and packaging purchasing questions",
+      "factSource": "25 effective Excel FAQs excluding prohibited promises",
+      "contentType": "Real customer images and editable text",
+      "desktopStrategy": "Balanced grouped question and answer interface",
+      "mobile390Strategy": "Touch-friendly accordion with meaningful initial content",
+      "componentDecision": "Evaluate actual native component search; use only suitable packages",
+      "referencePeers": [
+        "brownsafe.com"
+      ]
+    }
+  ]
+}

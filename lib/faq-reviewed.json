@@ -1,0 +1,37 @@
+[
+ {"id":"product","title":"Models and customization","items":[
+  {"q":"What sizes and models are available?","a":"The range includes compact, mid-size and tall cabinets. Compare each series and its model dimensions in the product catalogue."},
+  {"q":"Can size, material, colour or process be customized?","a":"Yes. Send your required dimensions, material, colour and process so the factory can confirm the order specification."},
+  {"q":"Can you provide samples?","a":"Yes. Samples can be arranged before a production order."},
+  {"q":"Are technical data sheets and test reports available?","a":"Yes. Request the technical data sheet or available test report for the exact model you are considering."},
+  {"q":"Which applications does the range serve?","a":"Applications include offices, homes, security storage and banks. Select the cabinet construction and access option for the intended use."},
+  {"q":"Can additional protective features be discussed?","a":"Fire-resistance and anti-theft requirements can be discussed for custom orders. Confirm the required construction and documentation for the specific model."}
+ ]},
+ {"id":"pricing","title":"Quantity and quotation","items":[
+  {"q":"What is the minimum order quantity?","a":"The minimum order quantity is 20 units."},
+  {"q":"Is pricing tiered by quantity?","a":"Yes. Send your chosen models and quantity for a tiered quotation."},
+  {"q":"Does the quotation include packaging, shipping and tax?","a":"Packaging is included. Shipping and tax are excluded and should be confirmed separately."},
+  {"q":"Can long-term cooperation and bulk pricing be discussed?","a":"Yes. Long-term cooperation pricing and bulk discounts can be discussed for your order."},
+  {"q":"Do raw-material or exchange-rate movements affect the quoted price?","a":"The company states that its quoted price is not adjusted for those movements. Confirm the quotation terms with the sales team before ordering."}
+ ]},
+ {"id":"samples","title":"Samples and approval","items":[
+  {"q":"Can samples be shipped?","a":"Yes. Sample shipment can be arranged with the sales team."},
+  {"q":"Are samples charged and refundable?","a":"Samples are charged and non-refundable."},
+  {"q":"What is the normal sample lead time?","a":"Normal sample lead time is about 30 days."},
+  {"q":"Can a custom sample be approved before production?","a":"Yes. A custom sample can be prepared for your confirmation before mass production."},
+  {"q":"Is the approved sample used for the production order?","a":"Yes. The approved sample is the reference for the agreed production specification."}
+ ]},
+ {"id":"production","title":"Production and scheduling","items":[
+  {"q":"What is the normal production lead time?","a":"Normal production lead time is about 30 days after order confirmation."},
+  {"q":"How is bulk-order delivery scheduled?","a":"The factory plans bulk orders to maintain a stable delivery schedule. Confirm the dispatch date for your order."},
+  {"q":"Does peak season change the planned lead time?","a":"The company plans peak-season production around the normal lead time. Confirm your required delivery date when ordering."},
+  {"q":"Is expedited production available?","a":"Urgent production requests are supported. Contact the team to confirm availability for your model and quantity."},
+  {"q":"Can production progress updates be provided?","a":"Yes. Progress updates can be provided while your order is in production."}
+ ]},
+ {"id":"inspection","title":"Inspection and communication","items":[
+  {"q":"Is there a quality-control process?","a":"Yes. The company has a quality-control process for production and outgoing inspection."},
+  {"q":"Is third-party inspection supported?","a":"Yes. Third-party inspection can be arranged for your order."},
+  {"q":"Are inspection reports available?","a":"Yes. Outgoing inspection and inspection reports are available."},
+  {"q":"How should a product quality issue be raised?","a":"Contact the team with the model, order details and a description of the issue so it can be discussed."}
+ ]}
+]

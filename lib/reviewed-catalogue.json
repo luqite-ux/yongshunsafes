@@ -1,0 +1,2893 @@
+[
+  {
+    "slug": "achiever-a2-redwood",
+    "category": "achiever",
+    "name": {
+      "en": "Achiever A2 Redwood"
+    },
+    "summary": {
+      "en": "Achiever A2 Redwood safe cabinets with redwood finish. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Redwood finish",
+    "sizeClass": "tall",
+    "images": [
+      {
+        "src": "/images/reviewed-products/achiever-a2-redwood-1.png",
+        "alt": {
+          "en": "Achiever A2 Redwood safe cabinet"
+        },
+        "aspect": 1.0
+      },
+      {
+        "src": "/images/reviewed-products/achiever-a2-redwood-2.png",
+        "alt": {
+          "en": "Achiever A2 Redwood safe cabinet — additional view"
+        },
+        "aspect": 1.0
+      }
+    ],
+    "models": [
+      {
+        "id": "detail-01-model-01",
+        "name": "FDX-A/D-30T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 300,
+          "widthMm": 400,
+          "depthMm": 300
+        },
+        "weightKg": 30,
+        "accessories": "Locking points: 2; Shelves: 1; Drawers: 0; Concealed compartments: 0"
+      },
+      {
+        "id": "detail-01-model-02",
+        "name": "FDX-A/D-35T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 350,
+          "widthMm": 400,
+          "depthMm": 330
+        },
+        "weightKg": 35,
+        "accessories": "Locking points: 2; Shelves: 1; Drawers: 0; Concealed compartments: 0"
+      },
+      {
+        "id": "detail-01-model-03",
+        "name": "FDX-A/D-45T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 450,
+          "widthMm": 400,
+          "depthMm": 350
+        },
+        "weightKg": 45,
+        "accessories": "Locking points: 8; Shelves: 1; Drawers: 1; Concealed compartments: 1"
+      },
+      {
+        "id": "detail-01-model-04",
+        "name": "FDG-AI/D-57T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 570,
+          "widthMm": 420,
+          "depthMm": 370
+        },
+        "weightKg": 76,
+        "accessories": "Locking points: 8; Shelves: 1; Drawers: 1; Concealed compartments: 1"
+      },
+      {
+        "id": "detail-01-model-05",
+        "name": "FDG-AI/D-67T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 670,
+          "widthMm": 450,
+          "depthMm": 380
+        },
+        "weightKg": 88,
+        "accessories": "Locking points: 8; Shelves: 1; Drawers: 1; Concealed compartments: 1"
+      },
+      {
+        "id": "detail-01-model-06",
+        "name": "FDG-AI/D-77T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 770,
+          "widthMm": 480,
+          "depthMm": 400
+        },
+        "weightKg": 106,
+        "accessories": "Locking points: 8; Shelves: 1; Drawers: 1; Concealed compartments: 1"
+      },
+      {
+        "id": "detail-01-model-07",
+        "name": "FDG-AI/D-97T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 970,
+          "widthMm": 530,
+          "depthMm": 450
+        },
+        "weightKg": 145,
+        "accessories": "Locking points: 10; Shelves: 1; Drawers: 1; Concealed compartments: 1"
+      },
+      {
+        "id": "detail-01-model-08",
+        "name": "FDG-AI/D-120T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1200,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 238,
+        "accessories": "Locking points: 10; Shelves: 2; Drawers: 1; Concealed compartments: 1"
+      },
+      {
+        "id": "detail-01-model-09",
+        "name": "FDG-AI/D-150T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1500,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 276,
+        "accessories": "Locking points: 10; Shelves: 2; Drawers: 1; Concealed compartments: 1"
+      }
+    ],
+    "features": {
+      "en": [
+        "Redwood finish",
+        "9 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ]
+  },
+  {
+    "slug": "achiever-a2-white-oak",
+    "category": "achiever",
+    "name": {
+      "en": "Achiever A2 White Oak"
+    },
+    "summary": {
+      "en": "Achiever A2 White Oak safe cabinets with white oak finish. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "White oak finish",
+    "sizeClass": "tall",
+    "images": [
+      {
+        "src": "/images/reviewed-products/achiever-a2-white-oak-1.png",
+        "alt": {
+          "en": "Achiever A2 White Oak safe cabinet"
+        },
+        "aspect": 1.0
+      },
+      {
+        "src": "/images/reviewed-products/achiever-a2-white-oak-2.png",
+        "alt": {
+          "en": "Achiever A2 White Oak safe cabinet — additional view"
+        },
+        "aspect": 1.0
+      }
+    ],
+    "models": [
+      {
+        "id": "detail-02-model-01",
+        "name": "FDX-A/D-30T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 300,
+          "widthMm": 400,
+          "depthMm": 300
+        },
+        "weightKg": 30,
+        "accessories": "Locking points: 2; Shelves: 1; Drawers: 0; Concealed compartments: 0"
+      },
+      {
+        "id": "detail-02-model-02",
+        "name": "FDX-A/D-35T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 350,
+          "widthMm": 400,
+          "depthMm": 330
+        },
+        "weightKg": 35,
+        "accessories": "Locking points: 2; Shelves: 1; Drawers: 0; Concealed compartments: 0"
+      },
+      {
+        "id": "detail-02-model-03",
+        "name": "FDX-A/D-45T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 450,
+          "widthMm": 400,
+          "depthMm": 350
+        },
+        "weightKg": 45,
+        "accessories": "Locking points: 8; Shelves: 1; Drawers: 1; Concealed compartments: 1"
+      },
+      {
+        "id": "detail-02-model-04",
+        "name": "FDG-AI/D-57T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 570,
+          "widthMm": 420,
+          "depthMm": 370
+        },
+        "weightKg": 76,
+        "accessories": "Locking points: 8; Shelves: 1; Drawers: 1; Concealed compartments: 1"
+      },
+      {
+        "id": "detail-02-model-05",
+        "name": "FDG-AI/D-67T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 670,
+          "widthMm": 450,
+          "depthMm": 380
+        },
+        "weightKg": 88,
+        "accessories": "Locking points: 8; Shelves: 1; Drawers: 1; Concealed compartments: 1"
+      },
+      {
+        "id": "detail-02-model-06",
+        "name": "FDG-AI/D-77T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 770,
+          "widthMm": 480,
+          "depthMm": 400
+        },
+        "weightKg": 106,
+        "accessories": "Locking points: 8; Shelves: 1; Drawers: 1; Concealed compartments: 1"
+      },
+      {
+        "id": "detail-02-model-07",
+        "name": "FDG-AI/D-97T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 970,
+          "widthMm": 530,
+          "depthMm": 450
+        },
+        "weightKg": 145,
+        "accessories": "Locking points: 10; Shelves: 1; Drawers: 1; Concealed compartments: 1"
+      },
+      {
+        "id": "detail-02-model-08",
+        "name": "FDG-AI/D-120T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1200,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 238,
+        "accessories": "Locking points: 10; Shelves: 2; Drawers: 1; Concealed compartments: 1"
+      },
+      {
+        "id": "detail-02-model-09",
+        "name": "FDG-AI/D-150T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1500,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 276,
+        "accessories": "Locking points: 10; Shelves: 2; Drawers: 1; Concealed compartments: 1"
+      }
+    ],
+    "features": {
+      "en": [
+        "White oak finish",
+        "9 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ]
+  },
+  {
+    "slug": "achiever-a3-walnut",
+    "category": "achiever",
+    "name": {
+      "en": "Achiever A3 Walnut"
+    },
+    "summary": {
+      "en": "Achiever A3 Walnut safe cabinets with walnut finish. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Walnut finish",
+    "sizeClass": "compact",
+    "images": [
+      {
+        "src": "/images/reviewed-products/achiever-a3-walnut-1.png",
+        "alt": {
+          "en": "Achiever A3 Walnut safe cabinet"
+        },
+        "aspect": 1.0
+      },
+      {
+        "src": "/images/reviewed-products/achiever-a3-walnut-2.png",
+        "alt": {
+          "en": "Achiever A3 Walnut safe cabinet — additional view"
+        },
+        "aspect": 1.0
+      }
+    ],
+    "models": [
+      {
+        "id": "a3",
+        "name": "A3",
+        "lockTypes": [],
+        "dimensions": null,
+        "weightKg": null,
+        "accessories": null
+      }
+    ],
+    "features": {
+      "en": [
+        "Walnut finish",
+        "Cabinet configuration on request",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ]
+  },
+  {
+    "slug": "achiever-a6-grey-original",
+    "category": "achiever",
+    "name": {
+      "en": "Achiever A6 Grey — Electronic & Fingerprint"
+    },
+    "summary": {
+      "en": "Achiever A6 Grey — Electronic & Fingerprint safe cabinets with grey. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Grey",
+    "sizeClass": "midsize",
+    "images": [
+      {
+        "src": "/images/reviewed-products/achiever-a6-grey-original-1.png",
+        "alt": {
+          "en": "Achiever A6 Grey — Electronic & Fingerprint safe cabinet"
+        },
+        "aspect": 1.0
+      },
+      {
+        "src": "/images/reviewed-products/achiever-a6-grey-original-2.png",
+        "alt": {
+          "en": "Achiever A6 Grey — Electronic & Fingerprint safe cabinet — additional view"
+        },
+        "aspect": 1.0
+      }
+    ],
+    "models": [
+      {
+        "id": "detail-04-model-01",
+        "name": "FDX--A/D--30T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 300,
+          "widthMm": 400,
+          "depthMm": 300
+        },
+        "weightKg": 30,
+        "accessories": null
+      },
+      {
+        "id": "detail-04-model-02",
+        "name": "FDX--A/D--35T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 350,
+          "widthMm": 400,
+          "depthMm": 330
+        },
+        "weightKg": 35,
+        "accessories": null
+      },
+      {
+        "id": "detail-04-model-03",
+        "name": "FDX--A/D--45T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 450,
+          "widthMm": 400,
+          "depthMm": 350
+        },
+        "weightKg": 45,
+        "accessories": null
+      },
+      {
+        "id": "detail-04-model-04",
+        "name": "FDX--A/D--57T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 570,
+          "widthMm": 420,
+          "depthMm": 370
+        },
+        "weightKg": 76,
+        "accessories": null
+      },
+      {
+        "id": "detail-04-model-05",
+        "name": "FDX--A/D--67T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 670,
+          "widthMm": 450,
+          "depthMm": 380
+        },
+        "weightKg": 88,
+        "accessories": null
+      },
+      {
+        "id": "detail-04-model-06",
+        "name": "FDX--A/D--77T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 770,
+          "widthMm": 480,
+          "depthMm": 400
+        },
+        "weightKg": 106,
+        "accessories": null
+      },
+      {
+        "id": "detail-04-model-07",
+        "name": "FDX--A/D--97T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 970,
+          "widthMm": 530,
+          "depthMm": 450
+        },
+        "weightKg": 145,
+        "accessories": null
+      }
+    ],
+    "features": {
+      "en": [
+        "Grey",
+        "7 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ]
+  },
+  {
+    "slug": "zhishang",
+    "category": "zhishang",
+    "name": {
+      "en": "Zhishang Safe Cabinets"
+    },
+    "summary": {
+      "en": "Zhishang Safe Cabinets safe cabinets with bronze. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Bronze",
+    "sizeClass": "tall",
+    "images": [
+      {
+        "src": "/images/reviewed-products/zhishang-1.png",
+        "alt": {
+          "en": "Zhishang Safe Cabinets safe cabinet"
+        },
+        "aspect": 1.0
+      },
+      {
+        "src": "/images/reviewed-products/zhishang-2.png",
+        "alt": {
+          "en": "Zhishang Safe Cabinets safe cabinet — additional view"
+        },
+        "aspect": 1.0
+      }
+    ],
+    "models": [
+      {
+        "id": "detail-05-model-01",
+        "name": "BGX--A/D--T27",
+        "lockTypes": [],
+        "dimensions": {
+          "heightMm": 270,
+          "widthMm": 380,
+          "depthMm": 200
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-05-model-02",
+        "name": "BGX--A/D--TA27",
+        "lockTypes": [],
+        "dimensions": {
+          "heightMm": 270,
+          "widthMm": 380,
+          "depthMm": 250
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-05-model-03",
+        "name": "BGX--A/D--T30",
+        "lockTypes": [],
+        "dimensions": {
+          "heightMm": 300,
+          "widthMm": 380,
+          "depthMm": 300
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-05-model-04",
+        "name": "BGX--A/D--T45",
+        "lockTypes": [],
+        "dimensions": {
+          "heightMm": 450,
+          "widthMm": 390,
+          "depthMm": 340
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-05-model-05",
+        "name": "BGX--A/D--T53",
+        "lockTypes": [],
+        "dimensions": {
+          "heightMm": 530,
+          "widthMm": 390,
+          "depthMm": 350
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-05-model-06",
+        "name": "BGX--A/D--T63",
+        "lockTypes": [],
+        "dimensions": {
+          "heightMm": 630,
+          "widthMm": 440,
+          "depthMm": 370
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-05-model-07",
+        "name": "BGX-A/D-T73",
+        "lockTypes": [],
+        "dimensions": {
+          "heightMm": 730,
+          "widthMm": 470,
+          "depthMm": 400
+        },
+        "weightKg": null,
+        "accessories": "Shelves: 1; Inner doors: 1; Locking assemblies: 2"
+      },
+      {
+        "id": "detail-05-model-08",
+        "name": "BGX-A/D-TS73",
+        "lockTypes": [],
+        "dimensions": {
+          "heightMm": 730,
+          "widthMm": 470,
+          "depthMm": 400
+        },
+        "weightKg": null,
+        "accessories": "Shelves: 1; Inner doors: 1; Locking assemblies: 3"
+      },
+      {
+        "id": "detail-05-model-09",
+        "name": "BGX-A/D-T93",
+        "lockTypes": [],
+        "dimensions": {
+          "heightMm": 930,
+          "widthMm": 510,
+          "depthMm": 450
+        },
+        "weightKg": null,
+        "accessories": "Shelves: 2; Inner doors: 1; Locking assemblies: 3"
+      },
+      {
+        "id": "detail-05-model-10",
+        "name": "BGX-A/D-TS93",
+        "lockTypes": [],
+        "dimensions": {
+          "heightMm": 930,
+          "widthMm": 510,
+          "depthMm": 450
+        },
+        "weightKg": null,
+        "accessories": "Shelves: 1; Inner doors: 1; Locking assemblies: 4"
+      },
+      {
+        "id": "detail-05-model-11",
+        "name": "BGX-A/D-T113",
+        "lockTypes": [],
+        "dimensions": {
+          "heightMm": 1130,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": null,
+        "accessories": "Shelves: 2; Inner doors: 1; Locking assemblies: 3"
+      },
+      {
+        "id": "detail-05-model-12",
+        "name": "BGX-A/D-T143",
+        "lockTypes": [],
+        "dimensions": {
+          "heightMm": 1430,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": null,
+        "accessories": "Shelves: 2; Inner doors: 1; Locking assemblies: 3"
+      }
+    ],
+    "features": {
+      "en": [
+        "Bronze",
+        "12 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ]
+  },
+  {
+    "slug": "upgraded-bronze-fingerprint",
+    "category": "upgraded",
+    "name": {
+      "en": "Upgraded Bronze Fingerprint"
+    },
+    "summary": {
+      "en": "Upgraded Bronze Fingerprint safe cabinets with bronze. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Bronze",
+    "sizeClass": "tall",
+    "images": [
+      {
+        "src": "/images/reviewed-products/upgraded-bronze-fingerprint-1.png",
+        "alt": {
+          "en": "Upgraded Bronze Fingerprint safe cabinet"
+        },
+        "aspect": 1.0
+      },
+      {
+        "src": "/images/reviewed-products/upgraded-bronze-fingerprint-2.png",
+        "alt": {
+          "en": "Upgraded Bronze Fingerprint safe cabinet — additional view"
+        },
+        "aspect": 1.0
+      }
+    ],
+    "models": [
+      {
+        "id": "detail-06-model-01",
+        "name": "BGX--A/D--T25",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 250,
+          "widthMm": 350,
+          "depthMm": 250
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-06-model-02",
+        "name": "BGX--A/D--T30",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 300,
+          "widthMm": 380,
+          "depthMm": 300
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-06-model-03",
+        "name": "BGX--A/D--T45",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 450,
+          "widthMm": 380,
+          "depthMm": 340
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-06-model-04",
+        "name": "BGX--A/D--T53",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 530,
+          "widthMm": 390,
+          "depthMm": 350
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-06-model-05",
+        "name": "BGX--A/D--T63",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 630,
+          "widthMm": 440,
+          "depthMm": 370
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-06-model-06",
+        "name": "BGX--A/D--T73",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 730,
+          "widthMm": 470,
+          "depthMm": 400
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-06-model-07",
+        "name": "BGX--A/D--TS93",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 930,
+          "widthMm": 510,
+          "depthMm": 450
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-06-model-08",
+        "name": "BGX--A/D--T93",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 930,
+          "widthMm": 510,
+          "depthMm": 450
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-06-model-09",
+        "name": "BGX--A/D--T113",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1130,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-06-model-10",
+        "name": "BGX--A/D--T113S",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1130,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-06-model-11",
+        "name": "BGX--A/D--T143",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1430,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": null,
+        "accessories": null
+      }
+    ],
+    "features": {
+      "en": [
+        "Bronze",
+        "11 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ]
+  },
+  {
+    "slug": "upgraded-digital",
+    "category": "upgraded",
+    "name": {
+      "en": "Upgraded Electronic"
+    },
+    "summary": {
+      "en": "Upgraded Electronic safe cabinets with painted finish. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Painted finish",
+    "sizeClass": "tall",
+    "images": [
+      {
+        "src": "/images/reviewed-products/upgraded-digital-1.png",
+        "alt": {
+          "en": "Upgraded Electronic safe cabinet"
+        },
+        "aspect": 1.0
+      },
+      {
+        "src": "/images/reviewed-products/upgraded-digital-2.png",
+        "alt": {
+          "en": "Upgraded Electronic safe cabinet — additional view"
+        },
+        "aspect": 1.0
+      }
+    ],
+    "models": [
+      {
+        "id": "detail-07-model-01",
+        "name": "BGX--A/D--T25",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 250,
+          "widthMm": 350,
+          "depthMm": 250
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-07-model-02",
+        "name": "BGX--A/D--T30",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 300,
+          "widthMm": 380,
+          "depthMm": 300
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-07-model-03",
+        "name": "BGX--A/D--T45",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 450,
+          "widthMm": 380,
+          "depthMm": 340
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-07-model-04",
+        "name": "BGX--A/D--T53",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 530,
+          "widthMm": 390,
+          "depthMm": 350
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-07-model-05",
+        "name": "BGX--A/D--T63",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 630,
+          "widthMm": 440,
+          "depthMm": 370
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-07-model-06",
+        "name": "BGX--A/D--T73",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 730,
+          "widthMm": 470,
+          "depthMm": 400
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-07-model-07",
+        "name": "BGX--A/D--T93",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 930,
+          "widthMm": 510,
+          "depthMm": 450
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-07-model-08",
+        "name": "BGX--A/D--T113",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1130,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "detail-07-model-09",
+        "name": "BGX--A/D--T143",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1430,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": null,
+        "accessories": null
+      }
+    ],
+    "features": {
+      "en": [
+        "Painted finish",
+        "9 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ]
+  },
+  {
+    "slug": "lingzhi-bronze-fingerprint",
+    "category": "lingzhi",
+    "name": {
+      "en": "Lingzhi Bronze Fingerprint"
+    },
+    "summary": {
+      "en": "Lingzhi Bronze Fingerprint safe cabinets with bronze. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Bronze",
+    "sizeClass": "tall",
+    "images": [
+      {
+        "src": "/images/reviewed-products/lingzhi-bronze-fingerprint-1.png",
+        "alt": {
+          "en": "Lingzhi Bronze Fingerprint safe cabinet"
+        },
+        "aspect": 1.0
+      },
+      {
+        "src": "/images/reviewed-products/lingzhi-bronze-fingerprint-2.png",
+        "alt": {
+          "en": "Lingzhi Bronze Fingerprint safe cabinet — additional view"
+        },
+        "aspect": 1.0
+      }
+    ],
+    "models": [
+      {
+        "id": "detail-08-model-01",
+        "name": "FDX--A/D--30T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 300,
+          "widthMm": 380,
+          "depthMm": 300
+        },
+        "weightKg": 31,
+        "accessories": "Locking assemblies: 1"
+      },
+      {
+        "id": "detail-08-model-02",
+        "name": "FDX--A/D--35T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 350,
+          "widthMm": 380,
+          "depthMm": 330
+        },
+        "weightKg": 35,
+        "accessories": "Locking assemblies: 1"
+      },
+      {
+        "id": "detail-08-model-03",
+        "name": "FDX--A/D--45T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 450,
+          "widthMm": 420,
+          "depthMm": 360
+        },
+        "weightKg": 52,
+        "accessories": "Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 8"
+      },
+      {
+        "id": "detail-08-model-04",
+        "name": "FDG--AI/D--53T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 530,
+          "widthMm": 420,
+          "depthMm": 370
+        },
+        "weightKg": 77,
+        "accessories": "Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 8; Inner doors: 1"
+      },
+      {
+        "id": "detail-08-model-05",
+        "name": "FDG--AI/D--63T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 630,
+          "widthMm": 450,
+          "depthMm": 380
+        },
+        "weightKg": 91,
+        "accessories": "Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 8; Inner doors: 1"
+      },
+      {
+        "id": "detail-08-model-06",
+        "name": "FDG--AI/D--73T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 730,
+          "widthMm": 480,
+          "depthMm": 400
+        },
+        "weightKg": 107,
+        "accessories": "Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 8; Inner doors: 1"
+      },
+      {
+        "id": "detail-08-model-07",
+        "name": "FDG--AI/D--93T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 930,
+          "widthMm": 530,
+          "depthMm": 450
+        },
+        "weightKg": 148,
+        "accessories": "Shelves: 2; Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 10; Inner doors: 1"
+      },
+      {
+        "id": "detail-08-model-08",
+        "name": "FDG--AI/D--113T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1130,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 218,
+        "accessories": "Shelves: 2; Concealed compartments: 1; Locking assemblies: 3; Locking bolts: 10; Inner doors: 1"
+      },
+      {
+        "id": "detail-08-model-09",
+        "name": "FDG--AI/D--143T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1430,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 256,
+        "accessories": "Shelves: 2; Concealed compartments: 1; Locking assemblies: 3; Locking bolts: 10; Inner doors: 1"
+      }
+    ],
+    "features": {
+      "en": [
+        "Bronze",
+        "9 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ]
+  },
+  {
+    "slug": "lingzhi-cream-fingerprint",
+    "category": "lingzhi",
+    "name": {
+      "en": "Lingzhi Cream Fingerprint"
+    },
+    "summary": {
+      "en": "Lingzhi Cream Fingerprint safe cabinets with cream. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Cream",
+    "sizeClass": "tall",
+    "images": [
+      {
+        "src": "/images/reviewed-products/lingzhi-cream-fingerprint-1.png",
+        "alt": {
+          "en": "Lingzhi Cream Fingerprint safe cabinet"
+        },
+        "aspect": 1.0
+      },
+      {
+        "src": "/images/reviewed-products/lingzhi-cream-fingerprint-2.png",
+        "alt": {
+          "en": "Lingzhi Cream Fingerprint safe cabinet — additional view"
+        },
+        "aspect": 1.0
+      }
+    ],
+    "models": [
+      {
+        "id": "detail-09-model-01",
+        "name": "FDX--A/D--30T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 300,
+          "widthMm": 380,
+          "depthMm": 300
+        },
+        "weightKg": 31,
+        "accessories": "Locking assemblies: 1"
+      },
+      {
+        "id": "detail-09-model-02",
+        "name": "FDX--A/D--35T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 350,
+          "widthMm": 380,
+          "depthMm": 330
+        },
+        "weightKg": 35,
+        "accessories": "Locking assemblies: 1"
+      },
+      {
+        "id": "detail-09-model-03",
+        "name": "FDX--A/D--45T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 450,
+          "widthMm": 420,
+          "depthMm": 360
+        },
+        "weightKg": 52,
+        "accessories": "Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 8"
+      },
+      {
+        "id": "detail-09-model-04",
+        "name": "FDG--AI/D--53T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 530,
+          "widthMm": 420,
+          "depthMm": 370
+        },
+        "weightKg": 77,
+        "accessories": "Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 8; Inner doors: 1"
+      },
+      {
+        "id": "detail-09-model-05",
+        "name": "FDG--AI/D--63T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 630,
+          "widthMm": 450,
+          "depthMm": 380
+        },
+        "weightKg": 91,
+        "accessories": "Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 8; Inner doors: 1"
+      },
+      {
+        "id": "detail-09-model-06",
+        "name": "FDG--AI/D--73T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 730,
+          "widthMm": 480,
+          "depthMm": 400
+        },
+        "weightKg": 107,
+        "accessories": "Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 8; Inner doors: 1"
+      },
+      {
+        "id": "detail-09-model-07",
+        "name": "FDG--AI/D--93T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 930,
+          "widthMm": 530,
+          "depthMm": 450
+        },
+        "weightKg": 148,
+        "accessories": "Shelves: 2; Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 10; Inner doors: 1"
+      },
+      {
+        "id": "detail-09-model-08",
+        "name": "FDG--AI/D--113T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1130,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 218,
+        "accessories": "Shelves: 2; Concealed compartments: 1; Locking assemblies: 3; Locking bolts: 10; Inner doors: 1"
+      }
+    ],
+    "features": {
+      "en": [
+        "Cream",
+        "8 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ]
+  },
+  {
+    "slug": "lingzhi-bronze-digital",
+    "category": "lingzhi",
+    "name": {
+      "en": "Lingzhi Bronze Electronic"
+    },
+    "summary": {
+      "en": "Lingzhi Bronze Electronic safe cabinets with bronze. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Bronze",
+    "sizeClass": "tall",
+    "images": [
+      {
+        "src": "/images/reviewed-products/lingzhi-bronze-digital-1.png",
+        "alt": {
+          "en": "Lingzhi Bronze Electronic safe cabinet"
+        },
+        "aspect": 1.0
+      },
+      {
+        "src": "/images/reviewed-products/lingzhi-bronze-digital-2.png",
+        "alt": {
+          "en": "Lingzhi Bronze Electronic safe cabinet — additional view"
+        },
+        "aspect": 1.0
+      }
+    ],
+    "models": [
+      {
+        "id": "detail-10-model-01",
+        "name": "FDX--A/D--30T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 300,
+          "widthMm": 380,
+          "depthMm": 300
+        },
+        "weightKg": 31,
+        "accessories": "Locking assemblies: 1"
+      },
+      {
+        "id": "detail-10-model-02",
+        "name": "FDX--A/D--35T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 350,
+          "widthMm": 380,
+          "depthMm": 330
+        },
+        "weightKg": 35,
+        "accessories": "Locking assemblies: 1"
+      },
+      {
+        "id": "detail-10-model-03",
+        "name": "FDX--A/D--45T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 450,
+          "widthMm": 420,
+          "depthMm": 360
+        },
+        "weightKg": 52,
+        "accessories": "Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 8"
+      },
+      {
+        "id": "detail-10-model-04",
+        "name": "FDG--AI/D--53T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 530,
+          "widthMm": 420,
+          "depthMm": 370
+        },
+        "weightKg": 77,
+        "accessories": "Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 8; Inner doors: 1"
+      },
+      {
+        "id": "detail-10-model-05",
+        "name": "FDG--AI/D--63T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 630,
+          "widthMm": 450,
+          "depthMm": 380
+        },
+        "weightKg": 91,
+        "accessories": "Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 8; Inner doors: 1"
+      },
+      {
+        "id": "detail-10-model-06",
+        "name": "FDG--AI/D--73T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 730,
+          "widthMm": 480,
+          "depthMm": 400
+        },
+        "weightKg": 107,
+        "accessories": "Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 8; Inner doors: 1"
+      },
+      {
+        "id": "detail-10-model-07",
+        "name": "FDG--AI/D--93T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 930,
+          "widthMm": 530,
+          "depthMm": 450
+        },
+        "weightKg": 148,
+        "accessories": "Shelves: 2; Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 10; Inner doors: 1"
+      },
+      {
+        "id": "detail-10-model-08",
+        "name": "FDG--AI/D--113T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1130,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 218,
+        "accessories": "Shelves: 2; Concealed compartments: 1; Locking assemblies: 3; Locking bolts: 10; Inner doors: 1"
+      },
+      {
+        "id": "detail-10-model-09",
+        "name": "FDG--AI/D--143T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1430,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 256,
+        "accessories": "Shelves: 2; Concealed compartments: 1; Locking assemblies: 3; Locking bolts: 10; Inner doors: 1"
+      }
+    ],
+    "features": {
+      "en": [
+        "Bronze",
+        "9 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ]
+  },
+  {
+    "slug": "lingzhi-cream-digital",
+    "category": "lingzhi",
+    "name": {
+      "en": "Lingzhi Cream Electronic"
+    },
+    "summary": {
+      "en": "Lingzhi Cream Electronic safe cabinets with cream. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Cream",
+    "sizeClass": "tall",
+    "images": [
+      {
+        "src": "/images/reviewed-products/lingzhi-cream-digital-1.png",
+        "alt": {
+          "en": "Lingzhi Cream Electronic safe cabinet"
+        },
+        "aspect": 1.0
+      },
+      {
+        "src": "/images/reviewed-products/lingzhi-cream-digital-2.png",
+        "alt": {
+          "en": "Lingzhi Cream Electronic safe cabinet — additional view"
+        },
+        "aspect": 1.0
+      }
+    ],
+    "models": [
+      {
+        "id": "detail-11-model-01",
+        "name": "FDX--A/D--30T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 300,
+          "widthMm": 380,
+          "depthMm": 300
+        },
+        "weightKg": 31,
+        "accessories": "Locking assemblies: 1"
+      },
+      {
+        "id": "detail-11-model-02",
+        "name": "FDX--A/D--35T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 350,
+          "widthMm": 380,
+          "depthMm": 330
+        },
+        "weightKg": 35,
+        "accessories": "Locking assemblies: 1"
+      },
+      {
+        "id": "detail-11-model-03",
+        "name": "FDX--A/D--45T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 450,
+          "widthMm": 420,
+          "depthMm": 360
+        },
+        "weightKg": 52,
+        "accessories": "Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 8"
+      },
+      {
+        "id": "detail-11-model-04",
+        "name": "FDG--AI/D--53T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 530,
+          "widthMm": 420,
+          "depthMm": 370
+        },
+        "weightKg": 77,
+        "accessories": "Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 8; Inner doors: 1"
+      },
+      {
+        "id": "detail-11-model-05",
+        "name": "FDG--AI/D--63T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 630,
+          "widthMm": 450,
+          "depthMm": 380
+        },
+        "weightKg": 91,
+        "accessories": "Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 8; Inner doors: 1"
+      },
+      {
+        "id": "detail-11-model-06",
+        "name": "FDG--AI/D--73T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 730,
+          "widthMm": 480,
+          "depthMm": 400
+        },
+        "weightKg": 107,
+        "accessories": "Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 8; Inner doors: 1"
+      },
+      {
+        "id": "detail-11-model-07",
+        "name": "FDG--AI/D--93T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 930,
+          "widthMm": 530,
+          "depthMm": 450
+        },
+        "weightKg": 148,
+        "accessories": "Shelves: 2; Concealed compartments: 1; Locking assemblies: 2; Locking bolts: 10; Inner doors: 1"
+      },
+      {
+        "id": "detail-11-model-08",
+        "name": "FDG--AI/D--113T",
+        "lockTypes": [
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1130,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 218,
+        "accessories": "Shelves: 2; Concealed compartments: 1; Locking assemblies: 3; Locking bolts: 10; Inner doors: 1"
+      }
+    ],
+    "features": {
+      "en": [
+        "Cream",
+        "8 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ]
+  },
+  {
+    "slug": "achiever-a6-champagne",
+    "category": "achiever",
+    "name": {
+      "en": "Achiever A6 Champagne"
+    },
+    "summary": {
+      "en": "Achiever A6 Champagne safe cabinets with champagne. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Champagne",
+    "sizeClass": "tall",
+    "images": [
+      {
+        "src": "/images/reviewed-products/achiever-a6-champagne-1.png",
+        "alt": {
+          "en": "Achiever A6 Champagne safe cabinet"
+        },
+        "aspect": 0.7263450834879406
+      },
+      {
+        "src": "/images/reviewed-products/achiever-a6-champagne-2.png",
+        "alt": {
+          "en": "Achiever A6 Champagne safe cabinet — additional view"
+        },
+        "aspect": 0.9915824915824916
+      }
+    ],
+    "models": [
+      {
+        "id": "model-7",
+        "name": "FDX—A/D—45T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 450,
+          "widthMm": 400,
+          "depthMm": 350
+        },
+        "weightKg": 45.0,
+        "accessories": "Champagne; Fingerprint and code recognition panel; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-8",
+        "name": "FDG—AI/D—53T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 570,
+          "widthMm": 420,
+          "depthMm": 370
+        },
+        "weightKg": 73.0,
+        "accessories": "Champagne; Fingerprint and code recognition panel; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-9",
+        "name": "FDG—AI/D—63T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 670,
+          "widthMm": 450,
+          "depthMm": 380
+        },
+        "weightKg": 87.0,
+        "accessories": "Champagne; Fingerprint and code recognition panel; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-10",
+        "name": "FDG—AI/D—73T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 770,
+          "widthMm": 480,
+          "depthMm": 400
+        },
+        "weightKg": 105.0,
+        "accessories": "Champagne; Fingerprint and code recognition panel; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-11",
+        "name": "FDG—AI/D—93T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 970,
+          "widthMm": 530,
+          "depthMm": 450
+        },
+        "weightKg": 142.0,
+        "accessories": "Champagne; Fingerprint and code recognition panel; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-12",
+        "name": "FDG—AI/D—113T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1170,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 222.0,
+        "accessories": "Champagne; Fingerprint and code recognition panel; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-13",
+        "name": "FDG—AI/D—143T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1470,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 262.0,
+        "accessories": "Champagne; Fingerprint and code recognition panel; Retractable handle; Leather interior"
+      }
+    ],
+    "features": {
+      "en": [
+        "Champagne",
+        "7 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ],
+    "brand": "Manadun"
+  },
+  {
+    "slug": "achiever-a6-grey-catalogue",
+    "category": "achiever",
+    "name": {
+      "en": "Achiever A6 Grey"
+    },
+    "summary": {
+      "en": "Achiever A6 Grey safe cabinets with grey. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Grey",
+    "sizeClass": "tall",
+    "images": [
+      {
+        "src": "/images/reviewed-products/achiever-a6-grey-catalogue-1.png",
+        "alt": {
+          "en": "Achiever A6 Grey safe cabinet"
+        },
+        "aspect": 0.6857529305680794
+      },
+      {
+        "src": "/images/reviewed-products/achiever-a6-grey-catalogue-2.png",
+        "alt": {
+          "en": "Achiever A6 Grey safe cabinet — additional view"
+        },
+        "aspect": 0.9953106682297772
+      }
+    ],
+    "models": [
+      {
+        "id": "model-17",
+        "name": "FDX—A/D—30T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 300,
+          "widthMm": 400,
+          "depthMm": 300
+        },
+        "weightKg": 31.0,
+        "accessories": "Grey; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-18",
+        "name": "FDX—A/D—35T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 350,
+          "widthMm": 400,
+          "depthMm": 330
+        },
+        "weightKg": 35.0,
+        "accessories": "Grey; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-19",
+        "name": "FDX—A/D—45T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 450,
+          "widthMm": 400,
+          "depthMm": 350
+        },
+        "weightKg": 45.0,
+        "accessories": "Grey; Fingerprint and code recognition panel; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-20",
+        "name": "FDG—AI/D—53T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 570,
+          "widthMm": 420,
+          "depthMm": 370
+        },
+        "weightKg": 73.0,
+        "accessories": "Grey; Fingerprint and code recognition panel; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-21",
+        "name": "FDG—AI/D—63T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 670,
+          "widthMm": 450,
+          "depthMm": 380
+        },
+        "weightKg": 87.0,
+        "accessories": "Grey; Fingerprint and code recognition panel; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-22",
+        "name": "FDG—AI/D—73T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 770,
+          "widthMm": 480,
+          "depthMm": 400
+        },
+        "weightKg": 105.0,
+        "accessories": "Grey; Fingerprint and code recognition panel; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-23",
+        "name": "FDG—AI/D—93T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 970,
+          "widthMm": 530,
+          "depthMm": 450
+        },
+        "weightKg": 142.0,
+        "accessories": "Grey; Fingerprint and code recognition panel; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-24",
+        "name": "FDG—AI/D—113T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1170,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 222.0,
+        "accessories": "Grey; Fingerprint and code recognition panel; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-25",
+        "name": "FDG—AI/D—143T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1470,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 262.0,
+        "accessories": "Grey; Fingerprint and code recognition panel; Retractable handle; Leather interior"
+      }
+    ],
+    "features": {
+      "en": [
+        "Grey",
+        "9 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ],
+    "brand": "Manadun"
+  },
+  {
+    "slug": "achiever-a7",
+    "category": "achiever",
+    "name": {
+      "en": "Achiever A7 Grey"
+    },
+    "summary": {
+      "en": "Achiever A7 Grey safe cabinets with grey. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Grey",
+    "sizeClass": "tall",
+    "images": [
+      {
+        "src": "/images/reviewed-products/achiever-a7-1.png",
+        "alt": {
+          "en": "Achiever A7 Grey safe cabinet"
+        },
+        "aspect": 0.7297169811320755
+      },
+      {
+        "src": "/images/reviewed-products/achiever-a7-2.png",
+        "alt": {
+          "en": "Achiever A7 Grey safe cabinet — additional view"
+        },
+        "aspect": 0.9928876244665719
+      }
+    ],
+    "models": [
+      {
+        "id": "model-29",
+        "name": "FDX—A/D—45T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic",
+          "face"
+        ],
+        "dimensions": {
+          "heightMm": 450,
+          "widthMm": 400,
+          "depthMm": 450
+        },
+        "weightKg": 45.0,
+        "accessories": "Grey; Fingerprint and code / face recognition; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-30",
+        "name": "FDG—AI/D—53T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic",
+          "face"
+        ],
+        "dimensions": {
+          "heightMm": 570,
+          "widthMm": 420,
+          "depthMm": 370
+        },
+        "weightKg": 73.0,
+        "accessories": "Grey; Fingerprint and code / face recognition; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-31",
+        "name": "FDG—AI/D—63T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic",
+          "face"
+        ],
+        "dimensions": {
+          "heightMm": 670,
+          "widthMm": 450,
+          "depthMm": 380
+        },
+        "weightKg": 87.0,
+        "accessories": "Grey; Fingerprint and code / face recognition; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-32",
+        "name": "FDG—AI/D—73T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic",
+          "face"
+        ],
+        "dimensions": {
+          "heightMm": 770,
+          "widthMm": 480,
+          "depthMm": 400
+        },
+        "weightKg": 105.0,
+        "accessories": "Grey; Fingerprint and code / face recognition; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-33",
+        "name": "FDG—AI/D—93T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic",
+          "face"
+        ],
+        "dimensions": {
+          "heightMm": 970,
+          "widthMm": 530,
+          "depthMm": 450
+        },
+        "weightKg": 142.0,
+        "accessories": "Grey; Fingerprint and code / face recognition; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-34",
+        "name": "FDG—AI/D—113T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic",
+          "face"
+        ],
+        "dimensions": {
+          "heightMm": 1170,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 222.0,
+        "accessories": "Grey; Fingerprint and code / face recognition; Retractable handle; Leather interior"
+      },
+      {
+        "id": "model-35",
+        "name": "FDG—AI/D—143T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic",
+          "face"
+        ],
+        "dimensions": {
+          "heightMm": 1470,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 262.0,
+        "accessories": "Grey; Fingerprint and code / face recognition; Retractable handle; Leather interior"
+      }
+    ],
+    "features": {
+      "en": [
+        "Grey",
+        "7 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ],
+    "brand": "Manadun"
+  },
+  {
+    "slug": "lingzhi-cream-catalogue",
+    "category": "lingzhi",
+    "name": {
+      "en": "Lingzhi Cream — Keypad & Fingerprint"
+    },
+    "summary": {
+      "en": "Lingzhi Cream — Keypad & Fingerprint safe cabinets with cream. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Cream",
+    "sizeClass": "tall",
+    "images": [
+      {
+        "src": "/images/reviewed-products/lingzhi-cream-catalogue-1.png",
+        "alt": {
+          "en": "Lingzhi Cream — Keypad & Fingerprint safe cabinet"
+        },
+        "aspect": 0.8172722485518694
+      },
+      {
+        "src": "/images/reviewed-products/lingzhi-cream-catalogue-2.png",
+        "alt": {
+          "en": "Lingzhi Cream — Keypad & Fingerprint safe cabinet — additional view"
+        },
+        "aspect": 0.9927536231884058
+      }
+    ],
+    "models": [
+      {
+        "id": "model-39",
+        "name": "FDX—A/D—25T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 250,
+          "widthMm": 380,
+          "depthMm": 250
+        },
+        "weightKg": 26.0,
+        "accessories": "Cream; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-40",
+        "name": "FDX—A/D—30T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 300,
+          "widthMm": 400,
+          "depthMm": 300
+        },
+        "weightKg": 31.0,
+        "accessories": "Cream; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-41",
+        "name": "FDX—A/D—35T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 350,
+          "widthMm": 400,
+          "depthMm": 330
+        },
+        "weightKg": 35.0,
+        "accessories": "Cream; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-42",
+        "name": "FDX—A/D—45T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 450,
+          "widthMm": 400,
+          "depthMm": 350
+        },
+        "weightKg": 45.0,
+        "accessories": "Cream; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-43",
+        "name": "FDX—A/D—53T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 570,
+          "widthMm": 420,
+          "depthMm": 370
+        },
+        "weightKg": 77.0,
+        "accessories": "Cream; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-44",
+        "name": "FDX—A/D—63T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 670,
+          "widthMm": 450,
+          "depthMm": 380
+        },
+        "weightKg": 91.0,
+        "accessories": "Cream; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-45",
+        "name": "FDX—A/D—73T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 770,
+          "widthMm": 480,
+          "depthMm": 400
+        },
+        "weightKg": 107.0,
+        "accessories": "Cream; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-46",
+        "name": "FDX—A/D—93T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 970,
+          "widthMm": 530,
+          "depthMm": 450
+        },
+        "weightKg": 148.0,
+        "accessories": "Cream; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-47",
+        "name": "FDX—A/D—113T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1170,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 218.0,
+        "accessories": "Cream; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-48",
+        "name": "FDX—A/D—143T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1470,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 256.0,
+        "accessories": "Cream; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      }
+    ],
+    "features": {
+      "en": [
+        "Cream",
+        "10 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ],
+    "brand": "Manadun"
+  },
+  {
+    "slug": "lingzhi-bronze-catalogue",
+    "category": "lingzhi",
+    "name": {
+      "en": "Lingzhi Bronze — Keypad & Fingerprint"
+    },
+    "summary": {
+      "en": "Lingzhi Bronze — Keypad & Fingerprint safe cabinets with bronze. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Bronze",
+    "sizeClass": "tall",
+    "images": [
+      {
+        "src": "/images/reviewed-products/lingzhi-bronze-catalogue-1.png",
+        "alt": {
+          "en": "Lingzhi Bronze — Keypad & Fingerprint safe cabinet"
+        },
+        "aspect": 0.7012468827930175
+      },
+      {
+        "src": "/images/reviewed-products/lingzhi-bronze-catalogue-2.png",
+        "alt": {
+          "en": "Lingzhi Bronze — Keypad & Fingerprint safe cabinet — additional view"
+        },
+        "aspect": 0.9921135646687698
+      }
+    ],
+    "models": [
+      {
+        "id": "model-52",
+        "name": "FDX—A/D—25T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 250,
+          "widthMm": 380,
+          "depthMm": 250
+        },
+        "weightKg": 26.0,
+        "accessories": "Bronze; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-53",
+        "name": "FDX—A/D—30T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 300,
+          "widthMm": 400,
+          "depthMm": 300
+        },
+        "weightKg": 31.0,
+        "accessories": "Bronze; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-54",
+        "name": "FDX—A/D—35T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 350,
+          "widthMm": 400,
+          "depthMm": 330
+        },
+        "weightKg": 35.0,
+        "accessories": "Bronze; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-55",
+        "name": "FDX—A/D—45T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 450,
+          "widthMm": 400,
+          "depthMm": 350
+        },
+        "weightKg": 45.0,
+        "accessories": "Bronze; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-56",
+        "name": "FDX—A/D—53T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 570,
+          "widthMm": 420,
+          "depthMm": 370
+        },
+        "weightKg": 77.0,
+        "accessories": "Bronze; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-57",
+        "name": "FDX—A/D—63T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 670,
+          "widthMm": 450,
+          "depthMm": 380
+        },
+        "weightKg": 91.0,
+        "accessories": "Bronze; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-58",
+        "name": "FDX—A/D—73T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 770,
+          "widthMm": 480,
+          "depthMm": 400
+        },
+        "weightKg": 107.0,
+        "accessories": "Bronze; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-59",
+        "name": "FDX—A/D—93T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 970,
+          "widthMm": 530,
+          "depthMm": 450
+        },
+        "weightKg": 148.0,
+        "accessories": "Bronze; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-60",
+        "name": "FDX—A/D—113T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1170,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 218.0,
+        "accessories": "Bronze; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      },
+      {
+        "id": "model-61",
+        "name": "FDX—A/D—143T",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1470,
+          "widthMm": 650,
+          "depthMm": 580
+        },
+        "weightKg": 256.0,
+        "accessories": "Bronze; Fingerprint and code recognition panel; Automatic door opening; Leather interior"
+      }
+    ],
+    "features": {
+      "en": [
+        "Bronze",
+        "10 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ],
+    "brand": "Manadun"
+  },
+  {
+    "slug": "yongning",
+    "category": "yongning",
+    "name": {
+      "en": "Yongning Light Grey"
+    },
+    "summary": {
+      "en": "Yongning Light Grey safe cabinets with light grey. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Light grey",
+    "sizeClass": "tall",
+    "images": [
+      {
+        "src": "/images/reviewed-products/yongning-1.png",
+        "alt": {
+          "en": "Yongning Light Grey safe cabinet"
+        },
+        "aspect": 0.6781940441882806
+      },
+      {
+        "src": "/images/reviewed-products/yongning-2.png",
+        "alt": {
+          "en": "Yongning Light Grey safe cabinet — additional view"
+        },
+        "aspect": 0.9929577464788732
+      }
+    ],
+    "models": [
+      {
+        "id": "model-65",
+        "name": "BGX--A/D--T25",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 250,
+          "widthMm": 350,
+          "depthMm": 250
+        },
+        "weightKg": 11.0,
+        "accessories": "Light grey; Fingerprint and code recognition panel; Rotary knob opening; Leather interior"
+      },
+      {
+        "id": "model-66",
+        "name": "BGX--A/D--T30",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 300,
+          "widthMm": 380,
+          "depthMm": 300
+        },
+        "weightKg": 15.0,
+        "accessories": "Light grey; Fingerprint and code recognition panel; Rotary knob opening; Leather interior"
+      },
+      {
+        "id": "model-67",
+        "name": "BGX--A/D--T45",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 450,
+          "widthMm": 380,
+          "depthMm": 340
+        },
+        "weightKg": 23.0,
+        "accessories": "Light grey; Fingerprint and code recognition panel; Handle opening; Leather interior"
+      },
+      {
+        "id": "model-68",
+        "name": "BGX--A/D--T53",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 530,
+          "widthMm": 390,
+          "depthMm": 350
+        },
+        "weightKg": 41.0,
+        "accessories": "Light grey; Fingerprint and code recognition panel; Handle opening; Leather interior"
+      },
+      {
+        "id": "model-69",
+        "name": "BGX--A/D--T63",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 630,
+          "widthMm": 440,
+          "depthMm": 370
+        },
+        "weightKg": 50.0,
+        "accessories": "Light grey; Fingerprint and code recognition panel; Handle opening; Leather interior"
+      },
+      {
+        "id": "model-70",
+        "name": "BGX--A/D--T73",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 730,
+          "widthMm": 470,
+          "depthMm": 400
+        },
+        "weightKg": 58.0,
+        "accessories": "Light grey; Fingerprint and code recognition panel; Handle opening; Leather interior"
+      },
+      {
+        "id": "model-71",
+        "name": "BGX--A/D--T93",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 930,
+          "widthMm": 510,
+          "depthMm": 450
+        },
+        "weightKg": 90.0,
+        "accessories": "Light grey; Fingerprint and code recognition panel; Handle opening; Leather interior"
+      },
+      {
+        "id": "model-72",
+        "name": "BGX--A/D--T113",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1130,
+          "widthMm": 600,
+          "depthMm": 500
+        },
+        "weightKg": 133.0,
+        "accessories": "Light grey; Fingerprint and code recognition panel; Handle opening; Leather interior"
+      },
+      {
+        "id": "model-73",
+        "name": "BGX--A/D-T143",
+        "lockTypes": [
+          "fingerprint",
+          "electronic"
+        ],
+        "dimensions": {
+          "heightMm": 1430,
+          "widthMm": 600,
+          "depthMm": 500
+        },
+        "weightKg": 153.0,
+        "accessories": "Light grey; Fingerprint and code recognition panel; Handle opening; Leather interior"
+      }
+    ],
+    "features": {
+      "en": [
+        "Light grey",
+        "9 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ],
+    "brand": "Manadun"
+  },
+  {
+    "slug": "achiever-a7l",
+    "category": "achiever",
+    "name": {
+      "en": "Achiever A7L"
+    },
+    "summary": {
+      "en": "Achiever A7L safe cabinets with finish on request. Compare model dimensions and storage configurations before choosing your order."
+    },
+    "finish": "Finish on request",
+    "sizeClass": "compact",
+    "images": [],
+    "models": [
+      {
+        "id": "35t",
+        "name": "35T",
+        "lockTypes": [],
+        "dimensions": null,
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "45t",
+        "name": "45T",
+        "lockTypes": [],
+        "dimensions": null,
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "57t",
+        "name": "57T",
+        "lockTypes": [],
+        "dimensions": null,
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "67t",
+        "name": "67T",
+        "lockTypes": [],
+        "dimensions": null,
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "77t",
+        "name": "77T",
+        "lockTypes": [],
+        "dimensions": null,
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "97t",
+        "name": "97T",
+        "lockTypes": [],
+        "dimensions": null,
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "117t",
+        "name": "117T",
+        "lockTypes": [],
+        "dimensions": null,
+        "weightKg": null,
+        "accessories": null
+      },
+      {
+        "id": "147t",
+        "name": "147T",
+        "lockTypes": [],
+        "dimensions": null,
+        "weightKg": null,
+        "accessories": null
+      }
+    ],
+    "features": {
+      "en": [
+        "Finish on request",
+        "8 model options",
+        "Size, material, colour and process requirements can be discussed"
+      ]
+    },
+    "applications": [
+      "Home",
+      "Office"
+    ]
+  }
+]

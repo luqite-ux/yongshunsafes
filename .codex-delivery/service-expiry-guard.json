@@ -1,0 +1,10 @@
+{
+ "schemaVersion":1,"guardVersion":"1","publicStatusPath":"/api/public/service-status/",
+ "defaults":{"serviceExpiryDate":null,"enforcementEnabled":false},
+ "guardFiles":["lib/service-status.ts"],"integrationFiles":["middleware.ts"],"dependencyFiles":["lib/site-content/preview-protection.ts"],"expiredPageFiles":["app/service-expired/page.tsx","components/service-expired-page.tsx"],
+ "publicRoutes":["/","/products","/products/achiever-a2-redwood","/manufacturing","/cases","/about","/news","/contact"],
+ "failOpenScenarios":["query_failed","timeout","missing_expiry","enforcement_disabled","guard_version_unregistered","unsupported_version"],
+ "excludedPaths":["/admin","/admin/login","/api","/_next","/favicon.ico","static-assets"],
+ "backendRegistration":{"registered":false},"productionVerification":{},
+ "identity":{"taskId":"b2484ca7-50c2-4330-ad57-203d195dce63","customerTenantId":"df54bef0-b29d-46ab-92dd-f7858cc364af","environmentId":null,"deploymentSha":null}
+}

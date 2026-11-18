@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "phase": "template",
+  "verdict": "PASS",
+  "findings": [
+    {
+      "id": "VIS-MOBILE-ACCESS-OVERFLOW",
+      "route": "/",
+      "area": "locks",
+      "viewport": "390x844",
+      "severity": "high",
+      "category": "responsive",
+      "evidence": "Actual WebKit measurement: document width 413px at viewport 390px; access tabs stretched their grid child to 396.625px. Mobile screenshots and overflow DOM inspection retained in controlled temporary evidence.",
+      "action": "Constrain grid child and tabs with min-w-0; reduce mobile label padding and retain 44px touch height.",
+      "status": "closed",
+      "recheckEvidence": "Fresh desktop/390px screenshots and template-axe-observations.json"
+    },
+    {
+      "id": "VIS-MOBILE-HERO-CONTINUITY",
+      "route": "/",
+      "area": "hero",
+      "viewport": "390x844",
+      "severity": "medium",
+      "category": "composition",
+      "evidence": "All three real mobile screenshots show a dark source banner followed by a detached light text block. Products are complete but scene and copy are visually disconnected.",
+      "action": "Use a continuous mobile banner surface derived from the original scene background, legible light DOM copy and unchanged complete source images; preserve the overall light website and original desktop placement.",
+      "status": "closed",
+      "recheckEvidence": "Fresh desktop/390px screenshots and template-axe-observations.json"
+    },
+    {
+      "id": "DATA-ACCESS-ILLUSTRATION-MISMATCH",
+      "route": "/",
+      "area": "locks",
+      "viewport": "all",
+      "severity": "high",
+      "category": "customer_facts",
+      "evidence": "The representative PDF compact safe is assigned fingerprint/password recognition in the reviewed source table. v0 labelled it as a mechanical rotary-dial example.",
+      "action": "Remove that photo from the mechanical tab and use a neutral key symbol without asserting a customer product configuration; keep actual electronic/fingerprint photos in attributable tabs.",
+      "status": "closed",
+      "recheckEvidence": "Fresh desktop/390px screenshots and template-axe-observations.json"
+    },
+    {
+      "id": "TECH-DEPENDENCY-SECURITY",
+      "route": "all",
+      "area": "dependencies",
+      "viewport": "all",
+      "severity": "high",
+      "category": "build",
+      "evidence": "Second build exited 1 after SecurityFatalError. Actual pnpm audit reported Next.js 16.4.3 advisories GHSA-mfr8-8qww-v76h and GHSA-vc7v-qv4w-wrv8, plus unused Zod GHSA-mrhx-c7xc-m3w5.",
+      "action": "Upgrade Next.js to official 16.4.6 patch and remove unused Zod; rebuild and repeat targeted dependency audit.",
+      "status": "closed",
+      "recheckEvidence": "template-final-build-evidence.json and zero-vulnerability audit"
+    },
+    {
+      "id": "VIS-ABOUT-DUPLICATE-FACTORY",
+      "route": "/about",
+      "area": "company gallery",
+      "viewport": "desktop and 390px",
+      "severity": "medium",
+      "category": "composition",
+      "evidence": "Factory entrance repeated in profile and gallery without new information",
+      "action": "Keep entrance in profile; separate warehouse and exhibition in gallery",
+      "status": "closed",
+      "recheckEvidence": "template-desktop-about-page.png and template-mobile-about-page.png"
+    }
+  ],
+  "productionReady": false,
+  "verifiedAt": "2026-11-18T15:20:01.087Z",
+  "scores": {
+    "banner": 4,
+    "brand": 4,
+    "typography": 4,
+    "images": 3,
+    "narrative": 4,
+    "motionMobile": 3,
+    "total": 22
+  },
+  "scope": "Template visual only; 18 series parameter layouts, selected real media, honest CAPTCHA unavailable state. Backend, complete source gallery, publication, domain and terminal audit remain required.",
+  "observations": [
+    "All three desktop banners place DOM copy in original negative space; mobile keeps complete cabinet bodies and doors above continuous source-colour copy surface. Overall page backgrounds remain light cream, gold and pale blue.",
+    "Catalogue stages preserve full subjects, including tall and compact safes; A7L uses a neutral no-photo illustration rather than a borrowed product.",
+    "Ten homepage sections move from series selection through access, size, capability, customization, workflow, applications, company and purchasing FAQ.",
+    "Contact side contains real company profile, scope, contact details and factory entrance with comparable density to the form.",
+    "Desktop screenshot capture must wait after scrolling back to top; earlier transient hidden hero screenshots are superseded by stable top captures."
+  ]
+}

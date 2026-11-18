@@ -1,0 +1,2290 @@
+{
+  "version": 1,
+  "fontFamilies": [
+    {
+      "key": "site-sans",
+      "label": "网站正文字体"
+    },
+    {
+      "key": "site-display",
+      "label": "网站标题字体"
+    }
+  ],
+  "pages": [
+    {
+      "key": "home",
+      "path": "/",
+      "label": "首页",
+      "modules": [
+        {
+          "key": "navigation",
+          "type": "navigation",
+          "label": "顶部与页脚导航",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "items",
+              "label": "导航项目",
+              "type": "repeat",
+              "fields": [
+                {
+                  "key": "label",
+                  "label": "导航名称",
+                  "type": "text",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 400
+                },
+                {
+                  "key": "href",
+                  "label": "链接",
+                  "type": "link",
+                  "required": true
+                }
+              ],
+              "maxItems": 12,
+              "required": true
+            }
+          ]
+        },
+        {
+          "key": "hero",
+          "type": "hero",
+          "label": "首页轮播",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "label": "品牌说明",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "slides",
+              "label": "轮播图片与文案",
+              "type": "repeat",
+              "fields": [
+                {
+                  "key": "headline",
+                  "label": "主标题",
+                  "type": "text",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 400,
+                  "typography": {
+                    "fontFamilies": [
+                      "site-display"
+                    ],
+                    "fontWeights": [
+                      400,
+                      500,
+                      600,
+                      700,
+                      800
+                    ],
+                    "fontSize": {
+                      "min": 12,
+                      "max": 96
+                    },
+                    "defaults": {
+                      "fontFamily": "site-display",
+                      "fontWeight": 600,
+                      "fontSizeDesktop": 60,
+                      "fontSizeMobile": 36
+                    }
+                  }
+                },
+                {
+                  "key": "body",
+                  "label": "说明",
+                  "type": "textarea",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 5000,
+                  "typography": {
+                    "fontFamilies": [
+                      "site-sans"
+                    ],
+                    "fontWeights": [
+                      400,
+                      500,
+                      600,
+                      700,
+                      800
+                    ],
+                    "fontSize": {
+                      "min": 12,
+                      "max": 96
+                    },
+                    "defaults": {
+                      "fontFamily": "site-sans",
+                      "fontWeight": 400,
+                      "fontSizeDesktop": 18,
+                      "fontSizeMobile": 16
+                    }
+                  }
+                },
+                {
+                  "key": "cta_label",
+                  "label": "按钮文字",
+                  "type": "text",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 400
+                },
+                {
+                  "key": "cta_href",
+                  "label": "按钮链接",
+                  "type": "link",
+                  "required": true
+                },
+                {
+                  "key": "desktop_image",
+                  "label": "桌面图片",
+                  "type": "image",
+                  "required": true
+                },
+                {
+                  "key": "mobile_image",
+                  "label": "手机图片",
+                  "type": "image",
+                  "required": true
+                }
+              ],
+              "maxItems": 10,
+              "required": true
+            }
+          ]
+        },
+        {
+          "key": "series",
+          "type": "series",
+          "label": "产品系列",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "label": "栏目说明",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "label": "标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 60,
+                  "fontSizeMobile": 36
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "简介",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "locks",
+          "type": "locks",
+          "label": "开锁方式",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "label": "栏目说明",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "label": "标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 60,
+                  "fontSizeMobile": 36
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "简介",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            },
+            {
+              "key": "options",
+              "type": "repeat",
+              "label": "开锁方式",
+              "required": true,
+              "maxItems": 10,
+              "fields": [
+                {
+                  "key": "title",
+                  "label": "名称",
+                  "type": "text",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 5000
+                },
+                {
+                  "key": "body",
+                  "label": "说明",
+                  "type": "textarea",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 5000
+                },
+                {
+                  "key": "points",
+                  "type": "repeat",
+                  "label": "选型要点",
+                  "required": true,
+                  "maxItems": 12,
+                  "fields": [
+                    {
+                      "key": "text",
+                      "label": "要点",
+                      "type": "text",
+                      "localized": true,
+                      "required": true,
+                      "maxLength": 5000
+                    }
+                  ]
+                },
+                {
+                  "key": "image",
+                  "type": "image",
+                  "label": "已核实产品图",
+                  "required": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "sizes",
+          "type": "sizes",
+          "label": "尺寸选型",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "label": "栏目说明",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "label": "标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 60,
+                  "fontSizeMobile": 36
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "简介",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "manufacturing",
+          "type": "manufacturing",
+          "label": "制造能力",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "label": "栏目说明",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "label": "标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 60,
+                  "fontSizeMobile": 36
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "简介",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "customization",
+          "type": "customization",
+          "label": "定制范围",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "label": "栏目说明",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "label": "标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 60,
+                  "fontSizeMobile": 36
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "简介",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            },
+            {
+              "key": "items",
+              "label": "定制项目",
+              "type": "repeat",
+              "fields": [
+                {
+                  "key": "title",
+                  "label": "项目名称",
+                  "type": "text",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 400
+                },
+                {
+                  "key": "body",
+                  "label": "说明",
+                  "type": "textarea",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 5000
+                }
+              ],
+              "maxItems": 12,
+              "required": true
+            }
+          ]
+        },
+        {
+          "key": "workflow",
+          "type": "workflow",
+          "label": "订单流程",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "label": "栏目说明",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "label": "标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 60,
+                  "fontSizeMobile": 36
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "简介",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            },
+            {
+              "key": "items",
+              "label": "订单步骤",
+              "type": "repeat",
+              "fields": [
+                {
+                  "key": "title",
+                  "label": "步骤名称",
+                  "type": "text",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 400
+                },
+                {
+                  "key": "body",
+                  "label": "说明",
+                  "type": "textarea",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 5000
+                }
+              ],
+              "maxItems": 12,
+              "required": true
+            }
+          ]
+        },
+        {
+          "key": "applications",
+          "type": "applications",
+          "label": "应用场景",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "label": "栏目说明",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "label": "标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 60,
+                  "fontSizeMobile": 36
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "简介",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "company",
+          "type": "company",
+          "label": "公司介绍",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "label": "栏目说明",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "label": "标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 60,
+                  "fontSizeMobile": 36
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "简介",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            },
+            {
+              "key": "registration",
+              "label": "登记与所在地",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000
+            },
+            {
+              "key": "factory_image",
+              "label": "厂门照片",
+              "type": "image",
+              "required": true
+            },
+            {
+              "key": "exhibition_image",
+              "label": "展会照片",
+              "type": "image",
+              "required": true
+            }
+          ]
+        },
+        {
+          "key": "faq",
+          "type": "faq",
+          "label": "采购问答",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "eyebrow",
+              "label": "栏目说明",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 12,
+                  "fontSizeMobile": 12
+                }
+              }
+            },
+            {
+              "key": "title",
+              "label": "标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 60,
+                  "fontSizeMobile": 36
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "简介",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 16
+                }
+              }
+            },
+            {
+              "key": "groups",
+              "label": "问答分类",
+              "type": "repeat",
+              "fields": [
+                {
+                  "key": "title",
+                  "label": "分类名称",
+                  "type": "text",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 400
+                },
+                {
+                  "key": "items",
+                  "label": "问题与答案",
+                  "type": "repeat",
+                  "fields": [
+                    {
+                      "key": "question",
+                      "label": "问题",
+                      "type": "text",
+                      "localized": true,
+                      "required": true,
+                      "maxLength": 400
+                    },
+                    {
+                      "key": "answer",
+                      "label": "答案",
+                      "type": "textarea",
+                      "localized": true,
+                      "required": true,
+                      "maxLength": 5000
+                    }
+                  ],
+                  "maxItems": 40,
+                  "required": true
+                }
+              ],
+              "maxItems": 10,
+              "required": true
+            }
+          ]
+        },
+        {
+          "key": "seo",
+          "type": "seo",
+          "label": "首页搜索与分享信息",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "label": "页面 SEO 标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400
+            },
+            {
+              "key": "description",
+              "label": "页面 SEO 描述",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000
+            }
+          ]
+        },
+        {
+          "key": "commercial",
+          "type": "commercial",
+          "label": "采购基础参数",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "moq",
+              "label": "最低起订量",
+              "type": "number",
+              "required": true,
+              "min": 0,
+              "max": 1000000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "products",
+      "path": "/products",
+      "label": "产品目录",
+      "modules": [
+        {
+          "key": "intro",
+          "type": "intro",
+          "label": "页面标题",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "label": "标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 72,
+                  "fontSizeMobile": 48
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "简介",
+              "type": "textarea",
+              "localized": true,
+              "required": false,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "seo",
+          "type": "seo",
+          "label": "搜索与分享信息",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "label": "页面 SEO 标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400
+            },
+            {
+              "key": "description",
+              "label": "页面 SEO 描述",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "manufacturing",
+      "path": "/manufacturing",
+      "label": "制造能力",
+      "modules": [
+        {
+          "key": "intro",
+          "type": "intro",
+          "label": "页面标题",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "label": "标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 72,
+                  "fontSizeMobile": 48
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "简介",
+              "type": "textarea",
+              "localized": true,
+              "required": false,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "seo",
+          "type": "seo",
+          "label": "搜索与分享信息",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "label": "页面 SEO 标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400
+            },
+            {
+              "key": "description",
+              "label": "页面 SEO 描述",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000
+            }
+          ]
+        },
+        {
+          "key": "process",
+          "type": "process",
+          "label": "制造流程",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "items",
+              "label": "工序",
+              "type": "repeat",
+              "fields": [
+                {
+                  "key": "title",
+                  "label": "工序名称",
+                  "type": "text",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 400
+                },
+                {
+                  "key": "body",
+                  "label": "说明",
+                  "type": "textarea",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 5000
+                }
+              ],
+              "maxItems": 12,
+              "required": true
+            }
+          ]
+        },
+        {
+          "key": "capacity",
+          "type": "capacity",
+          "label": "规模与交期",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "area",
+              "label": "厂区面积（平方米）",
+              "type": "number",
+              "required": true,
+              "min": 0,
+              "max": 1000000
+            },
+            {
+              "key": "lines",
+              "label": "定制生产线",
+              "type": "number",
+              "required": true,
+              "min": 0,
+              "max": 1000000
+            },
+            {
+              "key": "monthly",
+              "label": "参考月产量",
+              "type": "number",
+              "required": true,
+              "min": 0,
+              "max": 1000000
+            },
+            {
+              "key": "lead_days",
+              "label": "正常生产周期（天）",
+              "type": "number",
+              "required": true,
+              "min": 0,
+              "max": 1000000
+            }
+          ]
+        },
+        {
+          "key": "gallery",
+          "type": "gallery",
+          "label": "工厂与设备照片",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "items",
+              "label": "照片",
+              "type": "repeat",
+              "fields": [
+                {
+                  "key": "title",
+                  "label": "照片标题",
+                  "type": "text",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 400
+                },
+                {
+                  "key": "caption",
+                  "label": "说明",
+                  "type": "textarea",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 5000
+                },
+                {
+                  "key": "image",
+                  "label": "照片",
+                  "type": "image",
+                  "required": true
+                }
+              ],
+              "maxItems": 60,
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cases",
+      "path": "/cases",
+      "label": "应用场景",
+      "modules": [
+        {
+          "key": "intro",
+          "type": "intro",
+          "label": "页面标题",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "label": "标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 72,
+                  "fontSizeMobile": 48
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "简介",
+              "type": "textarea",
+              "localized": true,
+              "required": false,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "seo",
+          "type": "seo",
+          "label": "搜索与分享信息",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "label": "页面 SEO 标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400
+            },
+            {
+              "key": "description",
+              "label": "页面 SEO 描述",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000
+            }
+          ]
+        },
+        {
+          "key": "applications",
+          "type": "applications",
+          "label": "应用与场景",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "items",
+              "label": "应用场景",
+              "type": "repeat",
+              "fields": [
+                {
+                  "key": "title",
+                  "label": "场景名称",
+                  "type": "text",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 400
+                },
+                {
+                  "key": "caption",
+                  "label": "简述",
+                  "type": "textarea",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 5000
+                },
+                {
+                  "key": "detail",
+                  "label": "详细说明",
+                  "type": "textarea",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 5000
+                },
+                {
+                  "key": "image",
+                  "label": "场景照片",
+                  "type": "image",
+                  "required": true
+                }
+              ],
+              "maxItems": 60,
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "about",
+      "path": "/about",
+      "label": "关于我们",
+      "modules": [
+        {
+          "key": "intro",
+          "type": "intro",
+          "label": "页面标题",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "label": "标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 72,
+                  "fontSizeMobile": 48
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "简介",
+              "type": "textarea",
+              "localized": true,
+              "required": false,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "seo",
+          "type": "seo",
+          "label": "搜索与分享信息",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "label": "页面 SEO 标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400
+            },
+            {
+              "key": "description",
+              "label": "页面 SEO 描述",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000
+            }
+          ]
+        },
+        {
+          "key": "profile",
+          "type": "profile",
+          "label": "公司介绍",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "label": "介绍标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 30,
+                  "fontSizeMobile": 24
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "公司正文",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 18
+                }
+              }
+            },
+            {
+              "key": "registration",
+              "label": "登记信息",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000
+            },
+            {
+              "key": "image",
+              "label": "厂门照片",
+              "type": "image",
+              "required": true
+            }
+          ]
+        },
+        {
+          "key": "gallery",
+          "type": "gallery",
+          "label": "仓储与展会",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "items",
+              "label": "公司照片",
+              "type": "repeat",
+              "fields": [
+                {
+                  "key": "title",
+                  "label": "标题",
+                  "type": "text",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 400
+                },
+                {
+                  "key": "image",
+                  "label": "照片",
+                  "type": "image",
+                  "required": true
+                }
+              ],
+              "maxItems": 50,
+              "required": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "news",
+      "path": "/news",
+      "label": "新闻",
+      "modules": [
+        {
+          "key": "intro",
+          "type": "intro",
+          "label": "页面标题",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "label": "标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 72,
+                  "fontSizeMobile": 48
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "简介",
+              "type": "textarea",
+              "localized": true,
+              "required": false,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "seo",
+          "type": "seo",
+          "label": "搜索与分享信息",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "label": "页面 SEO 标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400
+            },
+            {
+              "key": "description",
+              "label": "页面 SEO 描述",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000
+            }
+          ]
+        },
+        {
+          "key": "empty",
+          "type": "empty",
+          "label": "暂无新闻提示",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "label": "标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 30,
+                  "fontSizeMobile": 24
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "说明",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 18
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "contact",
+      "path": "/contact",
+      "label": "联系我们",
+      "modules": [
+        {
+          "key": "intro",
+          "type": "intro",
+          "label": "页面标题",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "label": "标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400,
+              "typography": {
+                "fontFamilies": [
+                  "site-display"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-display",
+                  "fontWeight": 600,
+                  "fontSizeDesktop": 72,
+                  "fontSizeMobile": 48
+                }
+              }
+            },
+            {
+              "key": "body",
+              "label": "简介",
+              "type": "textarea",
+              "localized": true,
+              "required": false,
+              "maxLength": 5000,
+              "typography": {
+                "fontFamilies": [
+                  "site-sans"
+                ],
+                "fontWeights": [
+                  400,
+                  500,
+                  600,
+                  700,
+                  800
+                ],
+                "fontSize": {
+                  "min": 12,
+                  "max": 96
+                },
+                "defaults": {
+                  "fontFamily": "site-sans",
+                  "fontWeight": 400,
+                  "fontSizeDesktop": 18,
+                  "fontSizeMobile": 18
+                }
+              }
+            }
+          ]
+        },
+        {
+          "key": "seo",
+          "type": "seo",
+          "label": "搜索与分享信息",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "title",
+              "label": "页面 SEO 标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400
+            },
+            {
+              "key": "description",
+              "label": "页面 SEO 描述",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000
+            }
+          ]
+        },
+        {
+          "key": "introduction",
+          "type": "introduction",
+          "label": "联系与询价说明",
+          "canHide": false,
+          "canReorder": false,
+          "fields": [
+            {
+              "key": "profile",
+              "label": "公司说明",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000
+            },
+            {
+              "key": "form_title",
+              "label": "表单标题",
+              "type": "text",
+              "localized": true,
+              "required": true,
+              "maxLength": 400
+            },
+            {
+              "key": "form_help",
+              "label": "填写提示",
+              "type": "textarea",
+              "localized": true,
+              "required": true,
+              "maxLength": 5000
+            },
+            {
+              "key": "image",
+              "label": "公司照片",
+              "type": "image",
+              "required": true
+            },
+            {
+              "key": "services",
+              "type": "repeat",
+              "label": "业务范围",
+              "required": true,
+              "maxItems": 15,
+              "fields": [
+                {
+                  "key": "label",
+                  "label": "业务项目",
+                  "type": "text",
+                  "localized": true,
+                  "required": true,
+                  "maxLength": 5000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
