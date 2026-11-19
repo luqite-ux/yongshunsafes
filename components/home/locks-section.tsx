@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
-import { Binary, Fingerprint, KeyRound, type LucideIcon } from 'lucide-react'
+import { Binary, ClipboardCheck, Fingerprint, KeyRound, Ruler, Users, type LucideIcon } from 'lucide-react'
 import { Reveal } from '@/components/site/reveal'
 import { SectionHeading } from '@/components/site/section-heading'
 import { LinkButton } from '@/components/site/link-button'
@@ -15,6 +15,7 @@ interface Option {
   icon: LucideIcon
   lead: string
   points: string[]
+  pointIcons: LucideIcon[]
   image?: string
   alt: string
   aspect: number
@@ -29,8 +30,10 @@ const fallbackOptions: Option[] = [
     icon: KeyRound,
     lead: 'Explore mechanical lock options for safe cabinet access.',
     points: ['Mechanical access options', 'A choice of cabinet sizes', 'Confirm the lock configuration with your order'],
-    alt: 'Mechanical access symbol',
-    aspect: 1.4,
+    pointIcons: [KeyRound, Ruler, ClipboardCheck],
+    image: '/images/reviewed-products/achiever-a2-redwood-1.png',
+    alt: 'Customer-supplied Achiever safe cabinet; lock configuration varies by model',
+    aspect: 1.15,
     maxWidth: 'max-w-[520px]',
     marker: { x: 45, y: 50, label: 'Rotary dial' },
   },
@@ -40,6 +43,7 @@ const fallbackOptions: Option[] = [
     icon: Binary,
     lead: 'Keypad entry for quick, key-free access.',
     points: ['Keypad entry on the door panel', 'Several users can share one code', 'Often paired with a fingerprint reader'],
+    pointIcons: [Binary, Users, Fingerprint],
     image: '/images/products/digital-panel-grey.jpg',
     alt: 'Grey safe with a digital keypad and fingerprint panel on the door',
     aspect: 1,
@@ -52,6 +56,7 @@ const fallbackOptions: Option[] = [
     icon: Fingerprint,
     lead: 'Touch-to-open access for the people you register.',
     points: ['Fingerprint reader on the door', 'Quick access without carrying a key', 'Bronze fingerprint versions available'],
+    pointIcons: [Fingerprint, KeyRound, ClipboardCheck],
     image: '/images/products/tall-grey.png',
     alt: 'Tall grey safe with a round fingerprint reader on the door',
     aspect: 0.654,
@@ -61,7 +66,7 @@ const fallbackOptions: Option[] = [
 ]
 
 export function LocksSection({content}:{content?:ModuleContent}) {
-  const rows=contentRows(content,'options'),options:Option[]=rows?.length?rows.map(row=>{const base=fallbackOptions.find(o=>o.id===row.id)||fallbackOptions[0];return {...base,id:row.id as Option['id'],label:String(row.title||''),lead:String(row.body||''),points:Array.isArray(row.points)?row.points.map((p:any)=>String(p.text||'')):[],image:row.image?.url,alt:row.image?.alt||base.alt}}):fallbackOptions
+  const rows=contentRows(content,'options'),options:Option[]=rows?.length?rows.map(row=>{const base=fallbackOptions.find(o=>o.id===row.id)||fallbackOptions[0];return {...base,id:row.id as Option['id'],label:String(row.title||''),lead:String(row.body||''),points:Array.isArray(row.points)?row.points.map((p:any)=>String(p.text||'')):[],image:row.image?.url||base.image,alt:row.image?.alt||base.alt}}):fallbackOptions
   const [active, setActive] = useState<Option['id']>('mechanical')
   const current = options.find((o) => o.id === active)!
 
@@ -107,12 +112,15 @@ export function LocksSection({content}:{content?:ModuleContent}) {
                 <h3 className="font-display text-3xl font-semibold tracking-tight">{current.label} access</h3>
                 <p className="text-muted-foreground mt-3 text-lg leading-relaxed">{current.lead}</p>
                 <ul className="mt-6 space-y-3">
-                  {current.points.map((p) => (
+                  {current.points.map((p,index) => {
+                    const PointIcon=current.pointIcons[index]||current.icon
+                    return (
                     <li key={p} className="flex items-start gap-3">
-                      <current.icon aria-hidden className="text-gold-deep mt-0.5 size-5 shrink-0" />
+                      <PointIcon aria-hidden className="text-gold-deep mt-0.5 size-5 shrink-0" />
                       <span>{p}</span>
                     </li>
-                  ))}
+                    )
+                  })}
                 </ul>
                 <div className="mt-8">
                   <LinkButton href={current.id === 'mechanical' ? '/contact?lock=mechanical' : `/products?lock=${current.id}`} variant="primary">
@@ -122,7 +130,7 @@ export function LocksSection({content}:{content?:ModuleContent}) {
               </div>
             </div>
 
-            <div className="border-border flex items-center justify-center rounded-[2rem] border bg-white p-6 sm:p-10">
+            <figure className="border-border flex flex-col items-center justify-center rounded-[2rem] border bg-white p-6 sm:p-10">
               <div
                 className={cn('relative w-full', current.maxWidth)}
                 style={{ aspectRatio: String(current.aspect) }}
@@ -134,11 +142,8 @@ export function LocksSection({content}:{content?:ModuleContent}) {
                   fill
                   sizes="(min-width: 1024px) 40vw, 90vw"
                   className="object-contain"
-                /> : <div className="absolute inset-0 flex flex-col items-center justify-center gap-6 rounded-[2rem] bg-secondary/50 p-8 text-center">
-                  <KeyRound aria-hidden className="size-24 text-gold-deep" strokeWidth={1.25} />
-                  <span className="font-display text-xl font-semibold">Mechanical lock selection</span>
-                </div>}
-                {current.image && <span
+                /> : null}
+                {current.image && current.id !== 'mechanical' && <span
                   aria-hidden
                   className="absolute -translate-x-1/2 -translate-y-1/2"
                   style={{ left: `${current.marker.x}%`, top: `${current.marker.y}%` }}
@@ -152,7 +157,8 @@ export function LocksSection({content}:{content?:ModuleContent}) {
                   </span>
                 </span>}
               </div>
-            </div>
+              {current.id === 'mechanical' && <figcaption className="text-muted-foreground mt-4 text-center text-xs">Customer product photo. Confirm the lock configuration for each model.</figcaption>}
+            </figure>
           </div>
         </Reveal>
       </div>
