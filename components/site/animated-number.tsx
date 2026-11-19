@@ -26,5 +26,5 @@ export function AnimatedNumber({value,prefix=''}:{value:number;prefix?:string}){
     observer.observe(element)
     return()=>{observer.disconnect();cancelAnimationFrame(frame)}
   },[value])
-  return <span ref={ref} aria-label={`${prefix}${value.toLocaleString('en-US')}`}><span aria-hidden="true">{prefix}{display.toLocaleString('en-US')}</span></span>
+  return <span ref={ref}><span className="sr-only">{prefix}{value.toLocaleString('en-US')}</span><span aria-hidden="true">{prefix}{display.toLocaleString('en-US')}</span></span>
 }
