@@ -21,7 +21,7 @@ const initialMetadata: Metadata = {
 export async function generateMetadata(){return staticPageMetadata('/about',initialMetadata)}
 export default async function AboutPage() {
   const snapshot=await getSiteView(),block=(key:string)=>siteModule(snapshot,'/about',key),profile=block('profile'),settings=await getSiteSettings(),capacity=siteModule(snapshot,'/manufacturing','capacity')?.values
-  const factory=contentImage(profile,'image',{src:'/images/company/factory-exterior.png',alt:'Company name sign in gold characters at the Wuyi factory entrance'}),licence=contentImage(profile,'license_image',{src:'/images/company/business-licence.png',alt:'Business licence supplied by Zhejiang Wuyi Yongshun Safe Cabinet Co., Ltd.'}),services=contentRows(siteModule(snapshot,'/contact','introduction'),'services')?.map(row=>String(row.label||''))||businessScope
+  const factory=contentImage(profile,'image',{src:'/images/company/factory-exterior.png',alt:'Company name sign in gold characters at the Wuyi factory entrance'}),licence=contentImage(profile,'license_image',{src:'/images/company/business-licence.png',alt:'Business licence for Zhejiang Wuyi Yongshun Safe Cabinet Co., Ltd.'}),services=contentRows(siteModule(snapshot,'/contact','introduction'),'services')?.map(row=>String(row.label||''))||businessScope
   const photos=contentRows(block('gallery'))?.map(row=>({id:String(row.id),title:String(row.title||''),src:String(row.image?.url||''),alt:String(row.image?.alt||row.title||'')}))||[{id:'exhibition',title:'Exhibition',src:'/images/company/exhibition.png',alt:'Company exhibition booth with brand logo and product display boards'}]
   const fonts={'site-sans':'var(--font-body)','site-display':'var(--font-display)'}
   return (
@@ -79,7 +79,7 @@ export default async function AboutPage() {
               <a href={licence.src} target="_blank" rel="noopener noreferrer" aria-label="Open the original company business licence image">
                 <Image src={licence.src} alt={licence.alt} width={1760} height={1248} className="h-auto w-full object-contain" sizes="(min-width: 768px) 768px, 100vw" />
               </a>
-              <figcaption className="text-muted-foreground border-t px-5 py-3 text-sm">Business licence supplied by the company. Open the image to inspect the original document.</figcaption>
+              <figcaption className="text-muted-foreground border-t px-5 py-3 text-sm">Business licence. Select the image to view it in full.</figcaption>
             </figure>
             <div className="mt-6"><LinkButton href="/contact" variant="outline">Ask about documents</LinkButton></div>
           </Reveal>
