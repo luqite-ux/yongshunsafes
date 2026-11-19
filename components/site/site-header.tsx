@@ -53,6 +53,7 @@ export function SiteHeader({logoSrc='/images/brand/yongshun-logo.jpg',items=navI
             width={1876}
             height={1279}
             priority
+            fetchPriority="high"
             className="h-16 w-auto mix-blend-multiply"
           />
         </Link>

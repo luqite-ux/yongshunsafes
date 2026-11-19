@@ -127,8 +127,8 @@ export function HeroCarousel({content}:{content?:ModuleContent}) {
               )}
             >
               <div className="relative h-[300px] w-full sm:h-[380px] lg:h-auto lg:aspect-[2576/1073]">
-                <Image src={s.mobileImage} alt={s.mobileAlt} fill priority={i===0} sizes="(max-width:1023.98px) 100vw, 1px" className="object-cover object-[var(--pos)] lg:hidden" style={{ ['--pos' as string]: `${s.mobilePosition} 50%` }} />
-                <Image src={s.image} alt={s.alt} fill priority={i===0} sizes="(min-width:1024px) 100vw, 1px" className="hidden object-cover lg:block lg:object-center" />
+                <Image src={s.mobileImage} alt={s.mobileAlt} fill priority={i===0} fetchPriority={i===0?'high':undefined} sizes="(max-width:1023.98px) 100vw, 1px" className="object-cover object-[var(--pos)] lg:hidden" style={{ ['--pos' as string]: `${s.mobilePosition} 50%` }} />
+                <Image src={s.image} alt={s.alt} fill priority={i===0} fetchPriority={i===0?'high':undefined} sizes="(min-width:1024px) 100vw, 1px" className="hidden object-cover lg:block lg:object-center" />
               </div>
 
               <div

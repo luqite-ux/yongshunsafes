@@ -25,6 +25,7 @@ export function ProductGallery({ images }: { images: ProductImage[] }) {
           alt={t(current.alt)}
           fill
           priority
+          fetchPriority="high"
           sizes="(min-width: 1024px) 50vw, 100vw"
           className="object-contain p-6 sm:p-10"
         />
