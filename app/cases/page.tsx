@@ -44,7 +44,10 @@ export default async function CasesPage() {
               />
             </Reveal>
           ))}
-          <div><LinkButton href="/products">Browse products</LinkButton></div>
+          <div className="flex flex-wrap gap-3">
+            <LinkButton href="/products">Browse products</LinkButton>
+            <LinkButton href="/contact">Discuss your requirements</LinkButton>
+          </div>
         </div>
       </section>
     </div>
