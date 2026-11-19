@@ -64,7 +64,6 @@ export function ManufacturingSection({content,process,capacity,gallery}:{content
                   src={photo?.image?.url||'/images/company/warehouse-packed-row.png'}
                   alt={photo?.image?.alt||'Packed safe cabinets standing in rows inside the Wuyi warehouse'}
                   fill
-                  unoptimized
                   sizes="(min-width: 1024px) 50vw, 100vw"
                   className="object-contain"
                 />
