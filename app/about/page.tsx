@@ -60,10 +60,10 @@ export default async function AboutPage() {
       <section aria-labelledby="presence-title" className="bg-secondary/60 py-20 sm:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <Reveal><h2 id="presence-title" className="display-title text-3xl sm:text-5xl">Warehouse and exhibition</h2></Reveal>
-          <div className={`mt-10 grid items-start gap-6 ${photos.length>1?'md:grid-cols-2':''}`}>
-            {photos.map(photo=><Reveal key={photo.id}><figure className="border-border overflow-hidden rounded-3xl border bg-white">
-              <ImageSlot src={photo.src} alt={photo.alt} label={photo.title} icon={Warehouse} aspect={photo.id==='warehouse'?'aspect-[20/9]':'aspect-[4/3]'} fit={photo.id==='company-entrance'?'cover':'contain'} className="rounded-none border-0"/>
-              <figcaption className="border-t px-5 py-3 text-sm font-medium">{photo.title}</figcaption>
+          <div className={`mt-10 grid items-stretch gap-6 ${photos.length>1?'md:grid-cols-2':''}`}>
+            {photos.map(photo=><Reveal key={photo.id} className="h-full"><figure className="border-border flex h-full flex-col overflow-hidden rounded-3xl border bg-white">
+              <ImageSlot src={photo.src} alt={photo.alt} label={photo.title} icon={Warehouse} aspect="aspect-[4/3]" fit="contain" className="rounded-none border-0 bg-[#f5f1e7]"/>
+              <figcaption className="mt-auto border-t px-5 py-3 text-sm font-medium">{photo.title}</figcaption>
             </figure></Reveal>)}
           </div>
         </div>
@@ -71,7 +71,7 @@ export default async function AboutPage() {
 
       <section aria-labelledby="registration-title" className="py-20 sm:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <Reveal className="border-border rounded-3xl border bg-white p-8">
+          <Reveal className="border-border mx-auto max-w-3xl rounded-3xl border bg-white p-6 sm:p-8">
             <FileCheck2 aria-hidden className="text-gold-deep size-8" />
             <h2 id="registration-title" className="font-display mt-4 text-2xl font-semibold">Company registration</h2>
             <p className="text-muted-foreground mt-3 leading-relaxed">{contentText(profile,'registration',`Registered in Wuyi, Zhejiang, on ${company.registeredLabel}.`)}</p>

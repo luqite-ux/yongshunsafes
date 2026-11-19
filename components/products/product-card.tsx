@@ -17,10 +17,10 @@ export function ProductCard({ product }: { product: Product }) {
           padding="p-5 transition-transform duration-500 group-hover:scale-[1.02]"
         />
       </div>
-      <div className="flex flex-1 flex-col gap-3 p-6">
+      <div className="flex min-h-[18rem] flex-1 flex-col gap-3 p-6">
         <p className="eyebrow">{product.categoryName || product.category}</p>
-        <h3 className="font-display text-xl font-semibold leading-snug">{t(product.name)}</h3>
-        <p className="text-muted-foreground text-sm leading-relaxed">{t(product.summary)}</p>
+        <h3 className="font-display line-clamp-2 text-xl font-semibold leading-snug">{t(product.name)}</h3>
+        <p className="text-muted-foreground line-clamp-3 text-sm leading-relaxed">{t(product.summary)}</p>
         <ul className="mt-auto flex flex-wrap gap-2 pt-2">
           {locks.map((l) => (
             <li key={l} className="bg-sky text-blue-deep rounded-full px-3 py-1 text-xs font-semibold">

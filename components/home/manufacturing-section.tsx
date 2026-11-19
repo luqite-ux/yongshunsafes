@@ -6,9 +6,15 @@ import { workshopSteps } from '@/lib/manufacturing'
 import { company } from '@/lib/site'
 import {editableSteps} from '@/lib/structured-content'
 import {contentRows,type ModuleContent} from '@/lib/site-content/values'
+import { AnimatedNumber } from '@/components/site/animated-number'
 
 export function ManufacturingSection({content,process,capacity,gallery}:{content?:ModuleContent;process?:ModuleContent;capacity?:ModuleContent;gallery?:ModuleContent}) {
-  const steps=editableSteps(process,workshopSteps),facts=capacity?.values,photos=contentRows(gallery),photo=photos?.find(row=>row.id==='workshop-2')||photos?.[0]
+  const steps=editableSteps(process,workshopSteps),facts=capacity?.values,photos=contentRows(gallery),photo=photos?.find(row=>row.id==='workshop-6')||photos?.[0]
+  const metrics=[
+    {value:Number(facts?.area??company.areaSqm),label:'m² of workshop and site'},
+    {value:Number(facts?.lines??company.productionLines),label:'customization lines'},
+    {value:Number(facts?.monthly??company.monthlyCapacity),prefix:'~',label:'units per month, indicative'},
+  ]
   return (
     <section id="manufacturing" aria-labelledby="manufacturing-title" className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -18,14 +24,10 @@ export function ManufacturingSection({content,process,capacity,gallery}:{content
               Design, R&amp;D, production and sales sit under one roof in Wuyi, from cutting through to assembly.
             </SectionHeading>
             <dl className="mt-10 grid grid-cols-3 gap-4">
-              {[
-                [Number(facts?.area??company.areaSqm).toLocaleString('en-US'), 'm² of workshop and site'],
-                [String(facts?.lines??company.productionLines), 'customization lines'],
-                [`~${Number(facts?.monthly??company.monthlyCapacity).toLocaleString('en-US')}`, 'units per month, indicative'],
-              ].map(([value, label]) => (
+              {metrics.map(({value,prefix,label}) => (
                 <div key={label} className="border-border border-t pt-4">
                   <dt className="text-muted-foreground order-2 mt-1 text-xs leading-snug">{label}</dt>
-                  <dd className="font-display text-3xl font-semibold tracking-tight sm:text-4xl">{value}</dd>
+                  <dd className="font-display text-3xl font-semibold tracking-tight sm:text-4xl"><AnimatedNumber value={value} prefix={prefix}/></dd>
                 </div>
               ))}
             </dl>
@@ -57,11 +59,12 @@ export function ManufacturingSection({content,process,capacity,gallery}:{content
               ))}
             </ol>
             <figure className="mt-6 overflow-hidden rounded-3xl">
-              <div className="relative aspect-[20/9]">
+              <div className="relative aspect-[20/9] bg-white">
                 <Image
-                  src={photo?.image?.url||'/images/company/assembly-staging.jpg'}
-                  alt={photo?.image?.alt||'Safe cabinets and packing materials inside the Wuyi manufacturing workshop'}
+                  src={photo?.image?.url||'/images/company/warehouse-packed-row.png'}
+                  alt={photo?.image?.alt||'Packed safe cabinets standing in rows inside the Wuyi warehouse'}
                   fill
+                  unoptimized
                   sizes="(min-width: 1024px) 50vw, 100vw"
                   className="object-contain"
                 />
