@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "phase": "full_content_local_review",
+  "verdict": "PASS",
+  "reviewedAt": "2026-11-19T07:14:32Z",
+  "sourceRevision": "hero continuity adjustment atop 4ec52aa3d7cf69424727e6f05f85ed63121d68c6, pending final Production deployment",
+  "evidence": {
+    "desktop": "D:/Cursor/Grand/huanqiu-admin/.codex-delivery-temp/yongshunsafes/local-home-desktop-webkit.png",
+    "mobile390": "D:/Cursor/Grand/huanqiu-admin/.codex-delivery-temp/yongshunsafes/local-home-mobile-390-webkit.png",
+    "browserReport": "D:/Cursor/Grand/huanqiu-admin/.codex-delivery-temp/yongshunsafes/local-home-webkit-report.json"
+  },
+  "scores": {
+    "banner": 3,
+    "brand": 4,
+    "typography": 4,
+    "images": 3,
+    "narrative": 4,
+    "motionMobile": 3,
+    "total": 21
+  },
+  "observations": [
+    "Headless WebKit returned 200 on desktop 1440px and mobile 390px with no page errors or horizontal overflow.",
+    "The mobile hero uses the customer's safe image and a continuous brand-blue copy surface; text and CTA remain readable, with the safe body and door visible.",
+    "The desktop hero retains a designed copy safe area and complete product subject. The rest of the page uses light cream and pale blue surfaces.",
+    "The homepage covers series, access, size, production, customization, process, applications, company facts and FAQ with source-backed content.",
+    "Two offscreen carousel images were still lazy at desktop capture; the active image and all visible sections were rendered. Carousel transitions require a separate final browser check."
+  ],
+  "scope": "Local full-content Taste-style review. Formal Production, all routes, content management and final Impeccable review remain separate gates."
+}

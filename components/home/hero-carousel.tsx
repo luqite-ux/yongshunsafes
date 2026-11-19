@@ -91,7 +91,7 @@ export function HeroCarousel({content}:{content?:ModuleContent}) {
       role="region"
       aria-roledescription="carousel"
       aria-label="Featured safes"
-      className="relative touch-pan-y bg-[#07152e] text-white lg:bg-transparent"
+      className="relative touch-pan-y bg-[#1e3a68] text-white lg:bg-transparent"
       onMouseEnter={() => setInteracting(true)}
       onMouseLeave={() => setInteracting(false)}
       onFocus={() => setInteracting(true)}
@@ -133,11 +133,11 @@ export function HeroCarousel({content}:{content?:ModuleContent}) {
 
               <div
                 className={cn(
-                  'px-4 pb-24 pt-8 sm:px-6 lg:absolute lg:inset-y-0 lg:flex lg:w-[40%] lg:flex-col lg:justify-center lg:p-0 lg:pb-8',
+                  'relative px-4 pb-24 pt-14 before:pointer-events-none before:absolute before:inset-x-0 before:top-0 before:h-14 before:bg-gradient-to-b before:from-[#102e55] before:to-[#1e3a68] sm:px-6 lg:absolute lg:inset-y-0 lg:flex lg:w-[40%] lg:flex-col lg:justify-center lg:p-0 lg:pb-8 lg:before:hidden',
                   s.align === 'right' ? 'lg:right-[5%]' : 'lg:left-[5%]',
                 )}
               >
-                <div className={cn('text-white lg:[text-shadow:0_2px_24px_rgb(6_20_52/0.6)]', active && 'motion-safe:animate-[section-enter_0.7s_ease-out_both]')}>
+                <div className={cn('relative z-10 text-white lg:[text-shadow:0_2px_24px_rgb(6_20_52/0.6)]', active && 'motion-safe:animate-[section-enter_0.7s_ease-out_both]')}>
                   <p className="eyebrow hq-typography" style={{...siteTypographyStyle(content?.styles,'eyebrow',fonts),color:'#f0cf8a'}}>{contentText(content,'eyebrow','YONGSHUN · Safe manufacturer')}</p>
                   <h2 className="display-title hq-typography mt-4 text-4xl sm:text-5xl lg:text-[3.25rem] xl:text-6xl" style={siteTypographyStyle(content?.styles,`slides.${s.id}.headline`,fonts)}>
                     {s.headline}
