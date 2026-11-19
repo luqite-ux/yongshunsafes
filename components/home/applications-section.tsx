@@ -43,7 +43,6 @@ export function ApplicationsSection({content,scenes}:{content?:ModuleContent;sce
                         <p className="text-muted-foreground mt-1 text-sm leading-relaxed">{a.caption}</p>
                       </div>
                       <ArrowUpRight aria-hidden className="mt-1 size-5 shrink-0" />
-                      <span className="sr-only">See {a.title} applications in Cases</span>
                     </div>
                   </Link>
                 </Reveal>
