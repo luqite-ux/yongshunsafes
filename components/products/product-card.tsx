@@ -14,7 +14,7 @@ export function ProductCard({ product }: { product: Product }) {
         <ProductStage
           image={product.images[0]}
           sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-          padding="p-5 transition-transform duration-500 group-hover:scale-[1.02]"
+          padding="transition-transform duration-500 group-hover:scale-[1.02]"
         />
       </div>
       <div className="flex min-h-[18rem] flex-1 flex-col gap-3 p-6">

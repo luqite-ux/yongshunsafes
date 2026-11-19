@@ -38,7 +38,7 @@ export function SeriesSection({categories,products,content}:{categories:Category
                           image={cover}
                           sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                           className={cn('aspect-[5/4]', i >= 3 && 'lg:aspect-[16/10]')}
-                          padding="p-5 transition-transform duration-500 group-hover:scale-[1.02]"
+                          padding="transition-transform duration-500 group-hover:scale-[1.02]"
                         />
                       </div>
                     )}
