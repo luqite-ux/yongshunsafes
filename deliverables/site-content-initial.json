@@ -991,21 +991,6 @@
                 }
               },
               {
-                "id": "workshop-5",
-                "title": {
-                  "en": "Order preparation"
-                },
-                "caption": {
-                  "en": "Packed goods and work areas inside the manufacturing building"
-                },
-                "image": {
-                  "assetId": "a66cd87a-e68b-43f7-82b8-ae64a7dbf78a",
-                  "alt": {
-                    "en": "Packed goods and work areas inside the manufacturing building"
-                  }
-                }
-              },
-              {
                 "id": "workshop-6",
                 "title": {
                   "en": "Packed cabinet storage"
@@ -1171,18 +1156,6 @@
           "hidden": false,
           "values": {
             "items": [
-              {
-                "id": "warehouse",
-                "title": {
-                  "en": "Warehouse"
-                },
-                "image": {
-                  "assetId": "a0ba90c3-2abf-485e-a0f7-e1fde68a4af2",
-                  "alt": {
-                    "en": "Packed cabinets in the manufacturing building"
-                  }
-                }
-              },
               {
                 "id": "exhibition",
                 "title": {
