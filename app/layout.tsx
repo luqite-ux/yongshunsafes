@@ -31,6 +31,7 @@ return {
     template: '%s | YONGSHUN Safes',
   },
   description:settings.seoDescription||settings.description,
+  robots: { index: true, follow: true, 'max-image-preview': 'large' },
   applicationName: 'YONGSHUN Safes',
   alternates: { canonical: localePath('/',locale,settings.defaultLanguage) },
   icons: { icon: [{ url: settings.favicon, type: 'image/svg+xml' }] },
