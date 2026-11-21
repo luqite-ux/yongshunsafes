@@ -9,8 +9,9 @@ const primaryAccessBySlug: Record<string, LockType> = {
   'achiever-a2-white-oak': 'fingerprint',
   'achiever-a3-walnut': 'fingerprint',
   'achiever-a6-grey-original': 'fingerprint',
-  'upgraded-bronze-fingerprint': 'electronic',
+  'upgraded-bronze-fingerprint': 'fingerprint',
   'upgraded-digital': 'electronic',
+  zhishang: 'electronic',
   'lingzhi-bronze-fingerprint': 'fingerprint',
   'lingzhi-cream-fingerprint': 'fingerprint',
   'lingzhi-bronze-digital': 'electronic',
@@ -23,20 +24,6 @@ const primaryAccessBySlug: Record<string, LockType> = {
   yongning: 'fingerprint',
 }
 
-function renameUpgradedBronze(product: Product): Product {
-  if (product.slug !== 'upgraded-bronze-fingerprint') return product
-  const replace = (value: string) => value.replaceAll('Upgraded Bronze Fingerprint', 'Upgraded Bronze Electronic')
-  return {
-    ...product,
-    name: {...product.name, en: 'Upgraded Bronze Electronic'},
-    ...(product.summary?.en ? {summary: {...product.summary, en: replace(product.summary.en)}} : {}),
-    ...(product.images ? {images: product.images.map((image) => ({
-      ...image,
-      alt: {...image.alt, ...(image.alt.en ? {en: replace(image.alt.en)} : {})},
-    }))} : {}),
-  }
-}
-
 export function applyCustomerCatalogueRules(products: Product[]): Product[] {
   return products
     .filter((product) => product.slug !== 'achiever-a7l')
@@ -45,6 +32,6 @@ export function applyCustomerCatalogueRules(products: Product[]): Product[] {
       const normalized = primaryAccess
         ? {...product, models: product.models.map((model) => ({...model, lockTypes: [primaryAccess]}))}
         : product
-      return renameUpgradedBronze(normalized)
+      return normalized
     })
 }

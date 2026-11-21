@@ -24,8 +24,9 @@ const primaryAccessBySlug = {
   'achiever-a2-white-oak': 'fingerprint',
   'achiever-a3-walnut': 'fingerprint',
   'achiever-a6-grey-original': 'fingerprint',
-  'upgraded-bronze-fingerprint': 'electronic',
+  'upgraded-bronze-fingerprint': 'fingerprint',
   'upgraded-digital': 'electronic',
+  zhishang: 'electronic',
   'lingzhi-bronze-fingerprint': 'fingerprint',
   'lingzhi-cream-fingerprint': 'fingerprint',
   'lingzhi-bronze-digital': 'electronic',
@@ -74,12 +75,13 @@ function normalizeProduct(product) {
   const patch = {extra_data: extraData, specs}
   if (product.slug === 'upgraded-bronze-fingerprint') {
     const replaceName = (value) => typeof value === 'string'
-      ? value.replaceAll('Upgraded Bronze Fingerprint', 'Upgraded Bronze Electronic')
+      ? value.replaceAll('Upgraded Bronze Electronic', 'Upgraded Bronze Fingerprint')
+          .replaceAll('Electronic lock', 'Fingerprint lock')
       : value
-    patch.name = 'Upgraded Bronze Electronic'
-    patch.name_en = 'Upgraded Bronze Electronic'
-    patch.name_i18n = {...(product.name_i18n || {}), en: 'Upgraded Bronze Electronic'}
-    patch.extra_data = replaceValue(extraData, 'Upgraded Bronze Fingerprint', 'Upgraded Bronze Electronic')
+    patch.name = 'Upgraded Bronze Fingerprint'
+    patch.name_en = 'Upgraded Bronze Fingerprint'
+    patch.name_i18n = {...(product.name_i18n || {}), en: 'Upgraded Bronze Fingerprint'}
+    patch.extra_data = replaceValue(replaceValue(extraData, 'Upgraded Bronze Electronic', 'Upgraded Bronze Fingerprint'), 'Electronic lock', 'Fingerprint lock')
     patch.description = replaceName(product.description)
     patch.description_en = replaceName(product.description_en)
     patch.description_i18n = Object.fromEntries(Object.entries(product.description_i18n || {}).map(([key, value]) => [key, replaceName(value)]))
@@ -99,8 +101,8 @@ const categoryPatches = {
     summary: 'Wood-finish and painted cabinets across the A2, A3, A6 and A7 ranges.',
   },
   upgraded: {
-    descriptor: 'Digital keypad and bronze electronic',
-    summary: 'Electronic keypad versions of the upgraded range, including the bronze finish.',
+    descriptor: 'Digital keypad and bronze fingerprint',
+    summary: 'Digital keypad and bronze fingerprint versions of the upgraded range.',
   },
 }
 const categories = await rest(`product_categories?tenant_id=eq.${TENANT_ID}&select=*`)

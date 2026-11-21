@@ -72,8 +72,8 @@ export const fallbackCategories: Category[] = [
   {
     slug: 'upgraded',
     name: 'Upgraded',
-    descriptor: en('Digital keypad and bronze electronic'),
-    summary: en('Electronic keypad versions of the upgraded range, including the bronze finish.'),
+    descriptor: en('Digital keypad and bronze fingerprint'),
+    summary: en('Digital keypad and bronze fingerprint versions of the upgraded range.'),
   },
   {
     slug: 'zhishang',

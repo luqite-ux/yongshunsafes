@@ -27,7 +27,7 @@ test('series summaries no longer advertise removed or reclassified products', ()
     .join(' ')
 
   assert.doesNotMatch(text, /A7L/i)
-  assert.doesNotMatch(text, /bronze fingerprint/i)
+  assert.doesNotMatch(text, /bronze electronic/i)
 })
 
 test('fallback catalogue never mixes customer-visible access categories', () => {
@@ -43,7 +43,8 @@ test('fallback catalogue applies the customer-approved primary access category',
     'achiever-a3-walnut': ['fingerprint'],
     'lingzhi-cream-catalogue': ['fingerprint'],
     'lingzhi-bronze-catalogue': ['fingerprint'],
-    'upgraded-bronze-fingerprint': ['electronic'],
+    'upgraded-bronze-fingerprint': ['fingerprint'],
+    zhishang: ['electronic'],
   } as const
 
   for (const [slug, lockTypes] of Object.entries(expected)) {
@@ -54,10 +55,10 @@ test('fallback catalogue applies the customer-approved primary access category',
   }
 })
 
-test('fallback catalogue calls the corrected upgraded product electronic', () => {
+test('fallback catalogue keeps the customer-confirmed upgraded product fingerprint', () => {
   const product = bySlug('upgraded-bronze-fingerprint')
-  assert.equal(product?.name.en, 'Upgraded Bronze Electronic')
-  assert.doesNotMatch(JSON.stringify(product), /Upgraded Bronze Fingerprint/i)
+  assert.equal(product?.name.en, 'Upgraded Bronze Fingerprint')
+  assert.doesNotMatch(JSON.stringify(product), /Upgraded Bronze Electronic/i)
 })
 
 test('fallback contact address excludes the unverified street and number', () => {
