@@ -82,6 +82,7 @@ function normalizeProduct(product) {
     patch.name_en = 'Upgraded Bronze Fingerprint'
     patch.name_i18n = {...(product.name_i18n || {}), en: 'Upgraded Bronze Fingerprint'}
     patch.extra_data = replaceValue(replaceValue(extraData, 'Upgraded Bronze Electronic', 'Upgraded Bronze Fingerprint'), 'Electronic lock', 'Fingerprint lock')
+    patch.features = (product.features || []).map(replaceName)
     patch.description = replaceName(product.description)
     patch.description_en = replaceName(product.description_en)
     patch.description_i18n = Object.fromEntries(Object.entries(product.description_i18n || {}).map(([key, value]) => [key, replaceName(value)]))
