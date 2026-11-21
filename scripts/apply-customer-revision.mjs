@@ -53,6 +53,13 @@ function normalizeContent(value) {
   return Object.fromEntries(Object.entries(value).map(([key, child]) => [key, normalizeContent(child)]))
 }
 
+function replaceValue(value, search, replacement) {
+  if (typeof value === 'string') return value.replaceAll(search, replacement)
+  if (Array.isArray(value)) return value.map((item) => replaceValue(item, search, replacement))
+  if (!value || typeof value !== 'object') return value
+  return Object.fromEntries(Object.entries(value).map(([key, child]) => [key, replaceValue(child, search, replacement)]))
+}
+
 function normalizeProduct(product) {
   if (product.slug === 'achiever-a7l') return {...product, is_active: false}
   const primaryAccess = primaryAccessBySlug[product.slug]
@@ -72,6 +79,7 @@ function normalizeProduct(product) {
     patch.name = 'Upgraded Bronze Electronic'
     patch.name_en = 'Upgraded Bronze Electronic'
     patch.name_i18n = {...(product.name_i18n || {}), en: 'Upgraded Bronze Electronic'}
+    patch.extra_data = replaceValue(extraData, 'Upgraded Bronze Fingerprint', 'Upgraded Bronze Electronic')
     patch.description = replaceName(product.description)
     patch.description_en = replaceName(product.description_en)
     patch.description_i18n = Object.fromEntries(Object.entries(product.description_i18n || {}).map(([key, value]) => [key, replaceName(value)]))
@@ -84,6 +92,33 @@ const products = await rest(`products?tenant_id=eq.${TENANT_ID}&select=*`)
 const changedProducts = products
   .map((product) => ({before: product, after: normalizeProduct(product)}))
   .filter(({before, after}) => JSON.stringify(before) !== JSON.stringify(after))
+
+const categoryPatches = {
+  achiever: {
+    descriptor: 'Wood-finish A2 / A3 and painted A6 / A7',
+    summary: 'Wood-finish and painted cabinets across the A2, A3, A6 and A7 ranges.',
+  },
+  upgraded: {
+    descriptor: 'Digital keypad and bronze electronic',
+    summary: 'Electronic keypad versions of the upgraded range, including the bronze finish.',
+  },
+}
+const categories = await rest(`product_categories?tenant_id=eq.${TENANT_ID}&select=*`)
+const changedCategories = categories.flatMap((category) => {
+  const approved = categoryPatches[category.slug]
+  if (!approved) return []
+  const after = {
+    description: approved.summary,
+    description_en: approved.summary,
+    description_i18n: {...(category.description_i18n || {}), en: approved.summary},
+    extra_data: {
+      ...(category.extra_data || {}),
+      descriptor_i18n: {...(category.extra_data?.descriptor_i18n || {}), en: approved.descriptor},
+    },
+  }
+  const before = Object.fromEntries(Object.keys(after).map((key) => [key, category[key]]))
+  return JSON.stringify(before) === JSON.stringify(after) ? [] : [{category, after}]
+})
 
 const [tenant] = await rest(`tenants?id=eq.${TENANT_ID}&select=*`)
 if (!tenant) throw new Error('Tenant not found')
@@ -111,6 +146,7 @@ const plan = {
     name: `${before.name_i18n?.en || before.name} -> ${after.name_i18n?.en || after.name}`,
     access: [...new Set(Object.entries(after.specs || {}).filter(([key]) => key.endsWith(' | Access')).map(([, value]) => value))],
   })),
+  categories: changedCategories.map(({category, after}) => ({slug: category.slug, after})),
   address: {before: tenant.contact_address_i18n, after: tenantPatch.contact_address_i18n},
   siteContentChanged: JSON.stringify(draft.content) !== JSON.stringify(normalizedContent),
 }
@@ -127,6 +163,14 @@ for (const {before, after} of changedProducts) {
       .filter((key) => Object.hasOwn(after, key) && JSON.stringify(before[key]) !== JSON.stringify(after[key]))
       .map((key) => [key, after[key]]))
   await rest(`products?id=eq.${before.id}&tenant_id=eq.${TENANT_ID}`, {method: 'PATCH', headers: {Prefer: 'return=representation'}, body: JSON.stringify(fields)})
+}
+
+for (const {category, after} of changedCategories) {
+  await rest(`product_categories?id=eq.${category.id}&tenant_id=eq.${TENANT_ID}`, {
+    method: 'PATCH',
+    headers: {Prefer: 'return=representation'},
+    body: JSON.stringify(after),
+  })
 }
 
 await rest(`tenants?id=eq.${TENANT_ID}`, {method: 'PATCH', headers: {Prefer: 'return=representation'}, body: JSON.stringify(tenantPatch)})

@@ -55,7 +55,9 @@ test('fallback catalogue applies the customer-approved primary access category',
 })
 
 test('fallback catalogue calls the corrected upgraded product electronic', () => {
-  assert.equal(bySlug('upgraded-bronze-fingerprint')?.name.en, 'Upgraded Bronze Electronic')
+  const product = bySlug('upgraded-bronze-fingerprint')
+  assert.equal(product?.name.en, 'Upgraded Bronze Electronic')
+  assert.doesNotMatch(JSON.stringify(product), /Upgraded Bronze Fingerprint/i)
 })
 
 test('fallback contact address excludes the unverified street and number', () => {
