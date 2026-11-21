@@ -41,7 +41,7 @@ export default async function ContactPage() {
             <div>
               <h2 className="font-display text-2xl font-semibold">{settings.legalName.replace(/\.$/, '')}</h2>
               <p className="text-muted-foreground mt-3 leading-relaxed">
-                {contentText(intro,'profile','A manufacturer of mechanical, electronic and fingerprint safes and storage boxes, selling under the Yongshun and Manadun brands.')}
+                {contentText(intro,'profile','A manufacturer of electronic, fingerprint and face-recognition safes and storage boxes, selling under the Yongshun and Manadun brands.')}
               </p>
               <ul className="mt-4 flex flex-wrap gap-2">
                 {services.map((s) => (

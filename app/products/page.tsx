@@ -41,7 +41,7 @@ export default async function ProductsPage({ searchParams }: { searchParams: Sea
         variant="bolts"
         crumbs={[{ label: 'Home', href: '/' }, { label: 'Products' }]}
       >
-        {category ? t(category.summary) : 'Five series of mechanical, electronic and fingerprint safes. Filter by series, access option or size.'}
+        {category ? t(category.summary) : 'Five series of electronic, fingerprint and face-recognition safes. Filter by series, access option or size.'}
       </PageHero>
 
       <section aria-label="Product catalogue" className="py-16 sm:py-20">

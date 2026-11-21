@@ -27,7 +27,7 @@ export default async function AboutPage() {
   return (
     <div data-hq-content-version={snapshot?.pages.some(p=>p.path==='/about')?snapshot.version:undefined}>
       <PageHero content={block('intro')} eyebrow="About" title="A safe manufacturer in Wuyi, Zhejiang" crumbs={[{ label: 'Home', href: '/' }, { label: 'About' }]}>
-        {company.legalName.replace(/\.$/, '')} integrates design, R&amp;D, production and sales of mechanical, electronic and fingerprint safes and storage boxes.
+        {company.legalName.replace(/\.$/, '')} integrates design, R&amp;D, production and sales of electronic, fingerprint and face-recognition safes and storage boxes.
       </PageHero>
 
       <section aria-labelledby="profile-title" className="py-20 sm:py-28">

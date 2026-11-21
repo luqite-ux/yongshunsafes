@@ -23,7 +23,7 @@ const fallbackSlides = [
   {
     id: 'access',
     headline: 'Access options for everyday security',
-    body: 'Mechanical, electronic and fingerprint access across the range, so each space gets the right way in.',
+    body: 'Electronic, fingerprint and face-recognition access across the range, so each space gets the right way in.',
     cta: 'See access options',
     href: '/products',
     image: '/images/banners/banner-02.jpg',
@@ -134,7 +134,7 @@ export function HeroCarousel({content}:{content?:ModuleContent}) {
               <div
                 className={cn(
                   'relative px-4 pb-24 pt-14 before:pointer-events-none before:absolute before:inset-x-0 before:top-0 before:h-14 before:bg-gradient-to-b before:from-[#102e55] before:to-[#1e3a68] sm:px-6 lg:absolute lg:inset-y-0 lg:flex lg:w-[40%] lg:flex-col lg:justify-center lg:p-0 lg:pb-8 lg:before:hidden',
-                  s.align === 'right' ? 'lg:right-[5%]' : 'lg:left-[5%]',
+                  s.align === 'right' ? 'lg:right-[5%]' : 'lg:left-[8%]',
                 )}
               >
                 <div className={cn('relative z-10 text-white lg:[text-shadow:0_2px_24px_rgb(6_20_52/0.6)]', active && 'motion-safe:animate-[section-enter_0.7s_ease-out_both]')}>

@@ -4,6 +4,7 @@ import { fallbackCategories, type Product, type Category, type ProductModel, typ
 import type { Localized } from '@/lib/i18n'
 import {readEditableModels} from '@/lib/model-specs'
 import {getRequestLocale} from '@/lib/route-locale'
+import {applyCustomerCatalogueRules} from '@/lib/customer-catalogue-rules'
 
 type Row = Record<string, any>
 const rowCache=new Map<string,{expires:number;rows:Row[]}>()
@@ -50,6 +51,6 @@ export const getCatalogue = cache(async (requestedLocale?:string): Promise<{prod
   } catch {
     // Emergency display fallback is separately identified; an empty successful DB response never uses it.
     const fallback = (await import('@/lib/reviewed-catalogue.json')).default as Product[]
-    return {products:fallback,categories:fallbackCategories,source:'fallback'}
+    return {products:applyCustomerCatalogueRules(fallback),categories:fallbackCategories,source:'fallback'}
   }
 })

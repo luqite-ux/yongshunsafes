@@ -27,7 +27,7 @@ export async function SiteFooter() {
             />
           </Link>
           <p className="text-muted-foreground mt-4 max-w-xs text-sm leading-relaxed">
-            Manufacturer of mechanical, electronic and fingerprint safes and storage boxes under the{' '}
+            Manufacturer of electronic, fingerprint and face-recognition safes and storage boxes under the{' '}
             {company.brands.join(' and ')} brands.
           </p>
         </div>

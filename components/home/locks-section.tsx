@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import Image from 'next/image'
-import { Binary, ClipboardCheck, Fingerprint, KeyRound, Ruler, Users, type LucideIcon } from 'lucide-react'
+import { Binary, ClipboardCheck, Fingerprint, KeyRound, Users, type LucideIcon } from 'lucide-react'
 import { Reveal } from '@/components/site/reveal'
 import { SectionHeading } from '@/components/site/section-heading'
 import { LinkButton } from '@/components/site/link-button'
@@ -10,7 +10,7 @@ import { cn } from '@/lib/utils'
 import {contentRows,type ModuleContent} from '@/lib/site-content/values'
 
 interface Option {
-  id: 'mechanical' | 'electronic' | 'fingerprint'
+  id: 'electronic' | 'fingerprint'
   label: string
   icon: LucideIcon
   lead: string
@@ -24,19 +24,6 @@ interface Option {
 }
 
 const fallbackOptions: Option[] = [
-  {
-    id: 'mechanical',
-    label: 'Mechanical',
-    icon: KeyRound,
-    lead: 'Explore mechanical lock options for safe cabinet access.',
-    points: ['Mechanical access options', 'A choice of cabinet sizes', 'Confirm the lock configuration with your order'],
-    pointIcons: [KeyRound, Ruler, ClipboardCheck],
-    image: '/images/reviewed-products/achiever-a2-redwood-1.png',
-    alt: 'Customer-supplied Achiever safe cabinet; lock configuration varies by model',
-    aspect: 1.15,
-    maxWidth: 'max-w-[520px]',
-    marker: { x: 45, y: 50, label: 'Rotary dial' },
-  },
   {
     id: 'electronic',
     label: 'Electronic',
@@ -66,8 +53,8 @@ const fallbackOptions: Option[] = [
 ]
 
 export function LocksSection({content}:{content?:ModuleContent}) {
-  const rows=contentRows(content,'options'),options:Option[]=rows?.length?rows.map(row=>{const base=fallbackOptions.find(o=>o.id===row.id)||fallbackOptions[0];return {...base,id:row.id as Option['id'],label:String(row.title||''),lead:String(row.body||''),points:Array.isArray(row.points)?row.points.map((p:any)=>String(p.text||'')):[],image:row.image?.url||base.image,alt:row.image?.alt||base.alt}}):fallbackOptions
-  const [active, setActive] = useState<Option['id']>('mechanical')
+  const rows=contentRows(content,'options')?.filter(row=>row.id==='electronic'||row.id==='fingerprint'),options:Option[]=rows?.length?rows.map(row=>{const base=fallbackOptions.find(o=>o.id===row.id)||fallbackOptions[0];return {...base,id:row.id as Option['id'],label:String(row.title||''),lead:String(row.body||''),points:Array.isArray(row.points)?row.points.map((p:any)=>String(p.text||'')):[],image:row.image?.url||base.image,alt:row.image?.alt||base.alt}}):fallbackOptions
+  const [active, setActive] = useState<Option['id']>('electronic')
   const current = options.find((o) => o.id === active)!
 
   return (
@@ -123,8 +110,8 @@ export function LocksSection({content}:{content?:ModuleContent}) {
                   })}
                 </ul>
                 <div className="mt-8">
-                  <LinkButton href={current.id === 'mechanical' ? '/contact?lock=mechanical' : `/products?lock=${current.id}`} variant="primary">
-                    {current.id === 'mechanical' ? 'Discuss mechanical access' : `See ${current.label.toLowerCase()} models`}
+                  <LinkButton href={`/products?lock=${current.id}`} variant="primary">
+                    {`See ${current.label.toLowerCase()} models`}
                   </LinkButton>
                 </div>
               </div>
@@ -143,7 +130,7 @@ export function LocksSection({content}:{content?:ModuleContent}) {
                   sizes="(min-width: 1024px) 40vw, 90vw"
                   className="object-contain"
                 /> : null}
-                {current.image && current.id !== 'mechanical' && <span
+                {current.image && <span
                   aria-hidden
                   className="absolute -translate-x-1/2 -translate-y-1/2"
                   style={{ left: `${current.marker.x}%`, top: `${current.marker.y}%` }}
@@ -157,7 +144,6 @@ export function LocksSection({content}:{content?:ModuleContent}) {
                   </span>
                 </span>}
               </div>
-              {current.id === 'mechanical' && <figcaption className="text-muted-foreground mt-4 text-center text-xs">Customer product photo. Confirm the lock configuration for each model.</figcaption>}
             </figure>
           </div>
         </Reveal>

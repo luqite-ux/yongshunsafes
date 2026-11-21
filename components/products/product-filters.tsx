@@ -1,6 +1,7 @@
 import Link from '@/components/site/site-link'
 import { lockLabels, sizeLabels, type ProductFilter, type Category } from '@/lib/products'
 import { cn } from '@/lib/utils'
+import {visibleLockTypes} from '@/lib/customer-catalogue-rules'
 
 function href(current: ProductFilter, key: keyof ProductFilter, value?: string) {
   const params = new URLSearchParams()
@@ -52,7 +53,7 @@ export function ProductFilters({ current,categories }: { current: ProductFilter;
   return (
     <div className="grid gap-8 md:grid-cols-3" role="group" aria-label="Filter products">
       <Group title="Series" param="category" current={current} options={categories.map((c) => ({ value: c.slug, label: c.name }))} />
-      <Group title="Access" param="lock" current={current} options={Object.entries(lockLabels).map(([value, label]) => ({ value, label }))} />
+      <Group title="Access" param="lock" current={current} options={visibleLockTypes.map((value) => ({ value, label: lockLabels[value] }))} />
       <Group title="Size" param="size" current={current} options={Object.entries(sizeLabels).map(([value, label]) => ({ value, label }))} />
     </div>
   )

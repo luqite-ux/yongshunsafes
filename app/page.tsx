@@ -16,7 +16,7 @@ import {getSiteView,siteModule} from '@/lib/site-content/view'
 export const revalidate = 60
 
 const initialMetadata: Metadata = {
-  title: { absolute: 'YONGSHUN Safe Manufacturer | Mechanical, Electronic and Fingerprint Safes' },
+  title: { absolute: 'YONGSHUN Safe Manufacturer | Electronic, Fingerprint and Face-Recognition Safes' },
 }
 
 export async function generateMetadata(){return staticPageMetadata('/',initialMetadata)}

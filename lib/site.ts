@@ -11,7 +11,7 @@ export const company = {
   registeredOn: '2012-08-23',
   registeredLabel: '23 August 2012',
   address: {
-    street: 'Jinsan Road 16, Jinyanshan Industrial Area',
+    street: 'Jinyanshan Industrial Area',
     town: 'Quanxi Town, Wuyi County',
     region: 'Zhejiang, China',
   },
@@ -35,7 +35,6 @@ export const navItems = [
 ] as const
 
 export const businessScope = [
-  'Mechanical safes',
   'Electronic safes',
   'Fingerprint safes',
   'Storage boxes',

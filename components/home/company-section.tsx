@@ -38,8 +38,8 @@ export function CompanySection({content}:{content?:ModuleContent}) {
 
           <Reveal delay={100}>
             <SectionHeading content={content} eyebrow="Company" id="company-title" title="Who is the manufacturer?">
-              {company.legalName.replace(/\.$/, '')} integrates design, R&amp;D, production and sales of mechanical,
-              electronic and fingerprint safes and storage boxes under the Yongshun and Manadun brands.
+              {company.legalName.replace(/\.$/, '')} integrates design, R&amp;D, production and sales of electronic,
+              fingerprint and face-recognition safes and storage boxes under the Yongshun and Manadun brands.
             </SectionHeading>
             <p className="text-muted-foreground mt-5 leading-relaxed">
               {contentText(content,'registration',`Business registration dates from ${company.registeredLabel}. The company works from the Jinyanshan Industrial Area in Quanxi Town, Wuyi County, Zhejiang.`)}
