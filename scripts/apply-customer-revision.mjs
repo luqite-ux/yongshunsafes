@@ -132,6 +132,14 @@ if (extraSettings.translation_profile) {
 const tenantPatch = {
   contact_address_i18n: {...(tenant.contact_address_i18n || {}), en: addressEn, zh: addressZh},
   contact_address_short: addressEn,
+  seo_title_i18n: {
+    ...(tenant.seo_title_i18n || {}),
+    en: 'YONGSHUN Safe Manufacturer | Electronic, Fingerprint and Face-Recognition Safes',
+  },
+  seo_description_i18n: {
+    ...(tenant.seo_description_i18n || {}),
+    en: 'Electronic, fingerprint and face-recognition safe cabinets, made in Wuyi, Zhejiang.',
+  },
   extra_settings: extraSettings,
 }
 
