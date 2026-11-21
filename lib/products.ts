@@ -60,8 +60,8 @@ export const fallbackCategories: Category[] = [
   {
     slug: 'achiever',
     name: 'Achiever',
-    descriptor: en('Wood-finish A2 / A3 and A6 / A7 / A7L'),
-    summary: en('Wood-finish and painted cabinets across the A2, A3, A6, A7 and A7L ranges.'),
+    descriptor: en('Wood-finish A2 / A3 and painted A6 / A7'),
+    summary: en('Wood-finish and painted cabinets across the A2, A3, A6 and A7 ranges.'),
   },
   {
     slug: 'lingzhi',
@@ -72,8 +72,8 @@ export const fallbackCategories: Category[] = [
   {
     slug: 'upgraded',
     name: 'Upgraded',
-    descriptor: en('Digital and bronze fingerprint'),
-    summary: en('Digital keypad and bronze fingerprint versions of the upgraded range.'),
+    descriptor: en('Digital keypad and bronze electronic'),
+    summary: en('Electronic keypad versions of the upgraded range, including the bronze finish.'),
   },
   {
     slug: 'zhishang',

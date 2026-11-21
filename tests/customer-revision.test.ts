@@ -4,7 +4,7 @@ import {readFileSync} from 'node:fs'
 import {fileURLToPath} from 'node:url'
 import {fullAddress} from '../lib/site'
 import {applyCustomerCatalogueRules, visibleLockTypes} from '../lib/customer-catalogue-rules'
-import type {Product} from '../lib/products'
+import {fallbackCategories, type Product} from '../lib/products'
 
 const sourceCatalogue = JSON.parse(
   readFileSync(fileURLToPath(new URL('../lib/reviewed-catalogue.json', import.meta.url)), 'utf8'),
@@ -19,6 +19,15 @@ test('fallback catalogue removes the image-less A7L product', () => {
 
 test('customer-visible access filters omit the unsupported mechanical category', () => {
   assert.deepEqual(visibleLockTypes, ['electronic', 'fingerprint', 'face'])
+})
+
+test('series summaries no longer advertise removed or reclassified products', () => {
+  const text = fallbackCategories
+    .flatMap((category) => [category.descriptor.en, category.summary.en])
+    .join(' ')
+
+  assert.doesNotMatch(text, /A7L/i)
+  assert.doesNotMatch(text, /bronze fingerprint/i)
 })
 
 test('fallback catalogue never mixes customer-visible access categories', () => {

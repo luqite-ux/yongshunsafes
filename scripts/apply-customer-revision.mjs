@@ -39,8 +39,8 @@ const primaryAccessBySlug = {
 }
 
 const replaceMechanicalClaim = (value) => value
-  .replaceAll('Mechanical, Electronic and Fingerprint', 'Electronic, Fingerprint and Face-Recognition')
-  .replaceAll('mechanical, electronic and fingerprint', 'electronic, fingerprint and face-recognition')
+  .replace(/mechanical,\s*electronic and fingerprint/gi, (match) =>
+    /^[A-Z]/.test(match) ? 'Electronic, Fingerprint and Face-Recognition' : 'electronic, fingerprint and face-recognition')
 
 function normalizeContent(value) {
   if (typeof value === 'string') return replaceMechanicalClaim(value)
